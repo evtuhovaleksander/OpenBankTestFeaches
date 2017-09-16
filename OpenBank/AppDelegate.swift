@@ -143,7 +143,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
-       //let bankEncodedInfo = url.pathComponents[url.pathComponents.count-1]
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "LinkPayments") as! LinkPaymentsViewController
         let array = url.absoluteString.components(separatedBy: "bank://")

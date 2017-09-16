@@ -34,6 +34,7 @@ class PhoneBookViewController: UIViewController,EPPickerDelegate {
     }
     func epContactPicker(picker: EPContactsPicker, didSelectContact contact : EPContact){
         print(contact.phoneNumbers[0])
+        self.title = contact.phoneNumbers[0].phoneLabel
     }
 
 }

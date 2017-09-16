@@ -10,6 +10,11 @@
 		4E41CA708A32C7AEF6EF3AE7 /* Pods_OpenBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6043BF3C45C9E127EF7CDBC /* Pods_OpenBankUITests.framework */; };
 		5CE1BE6B6EE845179ED55475 /* Pods_OpenBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CF53EC950C5C3A4156FCD1 /* Pods_OpenBank.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		99EBB9347A2A1ED9BEAE8BAA /* Pods_OpenBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEE77E928FE6DBC5E01156F /* Pods_OpenBankTests.framework */; };
+		DE1356401F6DB7C6001F2171 /* ATMandOutlet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE13563E1F6DB7C6001F2171 /* ATMandOutlet.storyboard */; };
+		DE1356551F6DCBE9001F2171 /* OBTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1356541F6DCBE9001F2171 /* OBTest.swift */; };
+		DE1356571F6DCDE5001F2171 /* OBQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1356561F6DCDE5001F2171 /* OBQuestViewController.swift */; };
+		DE1356591F6DD4CD001F2171 /* OBQuestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1356581F6DD4CD001F2171 /* OBQuestCell.swift */; };
+		DE13565B1F6DD5DD001F2171 /* OBQuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13565A1F6DD5DD001F2171 /* OBQuest.swift */; };
 		DE31A5A01F6DAD6500BA2B3F /* LastOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31A59F1F6DAD6500BA2B3F /* LastOperation.swift */; };
 		DE52C10A1F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE52C1091F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift */; };
 		DE63A7101F6D351800836C76 /* OBQRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A70F1F6D351800836C76 /* OBQRCodeScannerViewController.swift */; };
@@ -92,6 +97,11 @@
 		52CF53EC950C5C3A4156FCD1 /* Pods_OpenBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61071C52FF76C1E58E832130 /* Pods-OpenBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBankTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenBankTests/Pods-OpenBankTests.release.xcconfig"; sourceTree = "<group>"; };
 		D6043BF3C45C9E127EF7CDBC /* Pods_OpenBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE13563F1F6DB7C6001F2171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ATMandOutlet.storyboard; sourceTree = "<group>"; };
+		DE1356541F6DCBE9001F2171 /* OBTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBTest.swift; sourceTree = "<group>"; };
+		DE1356561F6DCDE5001F2171 /* OBQuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBQuestViewController.swift; sourceTree = "<group>"; };
+		DE1356581F6DD4CD001F2171 /* OBQuestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBQuestCell.swift; sourceTree = "<group>"; };
+		DE13565A1F6DD5DD001F2171 /* OBQuest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBQuest.swift; sourceTree = "<group>"; };
 		DE31A59F1F6DAD6500BA2B3F /* LastOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastOperation.swift; sourceTree = "<group>"; };
 		DE52C0F91F6D246900359F74 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		DE52C1091F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBQRCodeGeneratorViewController.swift; sourceTree = "<group>"; };
@@ -244,6 +254,7 @@
 				DEBBE5541F69AE24001DA473 /* AppDelegate.swift */,
 				DEBBE5561F69AE24001DA473 /* ViewController.swift */,
 				DEBBE5581F69AE24001DA473 /* Main.storyboard */,
+				DE13563E1F6DB7C6001F2171 /* ATMandOutlet.storyboard */,
 				DEBBE55B1F69AE24001DA473 /* Assets.xcassets */,
 				DEBBE55D1F69AE24001DA473 /* LaunchScreen.storyboard */,
 				DEBBE5601F69AE24001DA473 /* Info.plist */,
@@ -266,6 +277,10 @@
 				DE63A71B1F6D642200836C76 /* BankATMCell.swift */,
 				DE63A71D1F6D644200836C76 /* BankOutletCell.swift */,
 				DE63A7251F6D96FF00836C76 /* YandexSpeechViewController.swift */,
+				DE1356541F6DCBE9001F2171 /* OBTest.swift */,
+				DE1356561F6DCDE5001F2171 /* OBQuestViewController.swift */,
+				DE1356581F6DD4CD001F2171 /* OBQuestCell.swift */,
+				DE13565A1F6DD5DD001F2171 /* OBQuest.swift */,
 			);
 			path = OpenBank;
 			sourceTree = "<group>";
@@ -440,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEBBE55F1F69AE24001DA473 /* LaunchScreen.storyboard in Resources */,
+				DE1356401F6DB7C6001F2171 /* ATMandOutlet.storyboard in Resources */,
 				DEBBE55C1F69AE24001DA473 /* Assets.xcassets in Resources */,
 				DEBBE55A1F69AE24001DA473 /* Main.storyboard in Resources */,
 				DE63A7281F6D974C00836C76 /* phrase_spotter_model in Resources */,
@@ -619,6 +635,7 @@
 				DE63A71E1F6D644200836C76 /* BankOutletCell.swift in Sources */,
 				DEB482F31F6D06C00025CB1A /* FaceTimeCallViewController.swift in Sources */,
 				DE63A7161F6D4F0F00836C76 /* Service.swift in Sources */,
+				DE1356551F6DCBE9001F2171 /* OBTest.swift in Sources */,
 				DE91F4461F6C0AE300A4D7A7 /* PhoneBookViewController.swift in Sources */,
 				DE63A7141F6D431B00836C76 /* ServiceCell.swift in Sources */,
 				DE63A7201F6D650B00836C76 /* BankATM.swift in Sources */,
@@ -632,10 +649,13 @@
 				DEB482F51F6D10780025CB1A /* OBTipsViewController.swift in Sources */,
 				DE63A7101F6D351800836C76 /* OBQRCodeScannerViewController.swift in Sources */,
 				DE91F4421F6BF87C00A4D7A7 /* TouchIDViewController.swift in Sources */,
+				DE13565B1F6DD5DD001F2171 /* OBQuest.swift in Sources */,
 				DEBBE58F1F6B0A1F001DA473 /* RegularPaymentsViewController.swift in Sources */,
 				DEBBE58D1F6B01B0001DA473 /* AplePayViewController.swift in Sources */,
 				DEBBE5851F69BC00001DA473 /* LinkPaymentsViewController.swift in Sources */,
 				DEBBE5551F69AE24001DA473 /* AppDelegate.swift in Sources */,
+				DE1356571F6DCDE5001F2171 /* OBQuestViewController.swift in Sources */,
+				DE1356591F6DD4CD001F2171 /* OBQuestCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +696,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DE13563E1F6DB7C6001F2171 /* ATMandOutlet.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE13563F1F6DB7C6001F2171 /* Base */,
+			);
+			name = ATMandOutlet.storyboard;
+			sourceTree = "<group>";
+		};
 		DE63A7321F6DA3E300836C76 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
