@@ -29,14 +29,11 @@ class PhoneBookViewController: UIViewController,EPPickerDelegate {
         self.present(navigationController, animated: true, completion: nil)
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func epContactPicker(_: EPContactsPicker, didCancel error : NSError){
+        print("error choosing contact")
     }
-    */
+    func epContactPicker(picker: EPContactsPicker, didSelectContact contact : EPContact){
+        print(contact.phoneNumbers[0])
+    }
 
 }

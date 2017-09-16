@@ -115,6 +115,14 @@
                                     <segue destination="Fcf-NF-N8X" kind="show" id="FFm-UO-cif"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJj-Zk-H13">
+                                <rect key="frame" x="73" y="470" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="speech"/>
+                                <connections>
+                                    <segue destination="xQp-a1-PMd" kind="show" id="gVT-6v-RVc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -679,6 +687,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7vN-OV-7DF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2608.8000000000002" y="1029.5352323838081"/>
+        </scene>
+        <!--Yandex Speech View Controller-->
+        <scene sceneID="7m9-YS-7BO">
+            <objects>
+                <viewController id="xQp-a1-PMd" customClass="YandexSpeechViewController" customModule="OpenBank" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7zC-Bc-4yt"/>
+                        <viewControllerLayoutGuide type="bottom" id="6za-PP-E2h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="66k-a0-yFG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eeX-30-9Dq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3588" y="1033"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pVo-iO-VfZ">

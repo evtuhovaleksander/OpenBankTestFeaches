@@ -22,6 +22,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }
         
+        
+        
+        
+        
+        
+        // Configure SpeechKit lib, this method should be called _before_ any SpeechKit functions.
+        // Generate your own app key for this purpose.
+        YSKSpeechKit.sharedInstance().configure(withAPIKey: "90df92d4-7e7c-4828-8baa-92fc506c0d02");
+        
+        // [OPTIONAL] Set SpeechKit log level, for more options see YSKLogLevel enum.
+        YSKSpeechKit.sharedInstance().setLogLevel(YSKLogLevel(YSKLogLevelWarn));
+        
+        // [OPTIONAL] Set YSKSpeechKit parameters, for all parameters and possible values see documentation.
+        YSKSpeechKit.sharedInstance().setParameter(YSKDisableAntimat, withValue: "false");
+        
+        //window = UIWindow(frame: UIScreen.main.bounds);
+        
+        //let phraseSpotterModelConfigDir = Bundle.main.resourcePath?.appending("/phrase_spotter_model")
+                
+
+        
+        
+        
+        
+        
+        
+        
         /*
         UIBackgroundTaskIdentifier = UIApplication.shared.beginBackgroundTask(expirationHandler: ()->Void in )
         self.backgroundTaskIdentifier =

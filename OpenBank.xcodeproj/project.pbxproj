@@ -10,7 +10,7 @@
 		4E41CA708A32C7AEF6EF3AE7 /* Pods_OpenBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6043BF3C45C9E127EF7CDBC /* Pods_OpenBankUITests.framework */; };
 		5CE1BE6B6EE845179ED55475 /* Pods_OpenBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CF53EC950C5C3A4156FCD1 /* Pods_OpenBank.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		99EBB9347A2A1ED9BEAE8BAA /* Pods_OpenBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEE77E928FE6DBC5E01156F /* Pods_OpenBankTests.framework */; };
-		DE52C0FA1F6D246900359F74 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE52C0F91F6D246900359F74 /* NotificationCenter.framework */; };
+		DE31A5A01F6DAD6500BA2B3F /* LastOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE31A59F1F6DAD6500BA2B3F /* LastOperation.swift */; };
 		DE52C10A1F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE52C1091F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift */; };
 		DE63A7101F6D351800836C76 /* OBQRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A70F1F6D351800836C76 /* OBQRCodeScannerViewController.swift */; };
 		DE63A7121F6D3E4800836C76 /* OBChooseServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A7111F6D3E4800836C76 /* OBChooseServiceViewController.swift */; };
@@ -21,6 +21,13 @@
 		DE63A71C1F6D642200836C76 /* BankATMCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A71B1F6D642200836C76 /* BankATMCell.swift */; };
 		DE63A71E1F6D644200836C76 /* BankOutletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A71D1F6D644200836C76 /* BankOutletCell.swift */; };
 		DE63A7201F6D650B00836C76 /* BankATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A71F1F6D650B00836C76 /* BankATM.swift */; };
+		DE63A7261F6D96FF00836C76 /* YandexSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A7251F6D96FF00836C76 /* YandexSpeechViewController.swift */; };
+		DE63A7281F6D974C00836C76 /* phrase_spotter_model in Resources */ = {isa = PBXBuildFile; fileRef = DE63A7271F6D974C00836C76 /* phrase_spotter_model */; };
+		DE63A72E1F6DA3E300836C76 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE52C0F91F6D246900359F74 /* NotificationCenter.framework */; };
+		DE63A7311F6DA3E300836C76 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A7301F6DA3E300836C76 /* TodayViewController.swift */; };
+		DE63A7341F6DA3E300836C76 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE63A7321F6DA3E300836C76 /* MainInterface.storyboard */; };
+		DE63A7381F6DA3E300836C76 /* OBWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE63A72D1F6DA3E300836C76 /* OBWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE63A73E1F6DAC2A00836C76 /* LastOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A73D1F6DAC2A00836C76 /* LastOperationCell.swift */; };
 		DE91F4421F6BF87C00A4D7A7 /* TouchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91F4411F6BF87C00A4D7A7 /* TouchIDViewController.swift */; };
 		DE91F4441F6BF98F00A4D7A7 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE91F4431F6BF98E00A4D7A7 /* LocalAuthentication.framework */; };
 		DE91F4461F6C0AE300A4D7A7 /* PhoneBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91F4451F6C0AE300A4D7A7 /* PhoneBookViewController.swift */; };
@@ -40,6 +47,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DE63A7361F6DA3E300836C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEBBE5491F69AE24001DA473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE63A72C1F6DA3E300836C76;
+			remoteInfo = OBWidget;
+		};
 		DEBBE5661F69AE24001DA473 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DEBBE5491F69AE24001DA473 /* Project object */;
@@ -56,6 +70,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DE63A73C1F6DA3E300836C76 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DE63A7381F6DA3E300836C76 /* OBWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		187C64E072BD6F5A16F90895 /* Pods-OpenBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBankUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenBankUITests/Pods-OpenBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		35C0A756AE8EA98159430C2D /* Pods-OpenBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBankTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenBankTests/Pods-OpenBankTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +92,7 @@
 		52CF53EC950C5C3A4156FCD1 /* Pods_OpenBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61071C52FF76C1E58E832130 /* Pods-OpenBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenBankTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenBankTests/Pods-OpenBankTests.release.xcconfig"; sourceTree = "<group>"; };
 		D6043BF3C45C9E127EF7CDBC /* Pods_OpenBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE52C0F81F6D246900359F74 /* OBWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OBWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE31A59F1F6DAD6500BA2B3F /* LastOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastOperation.swift; sourceTree = "<group>"; };
 		DE52C0F91F6D246900359F74 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		DE52C1091F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBQRCodeGeneratorViewController.swift; sourceTree = "<group>"; };
 		DE63A70F1F6D351800836C76 /* OBQRCodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBQRCodeScannerViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +104,13 @@
 		DE63A71B1F6D642200836C76 /* BankATMCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankATMCell.swift; sourceTree = "<group>"; };
 		DE63A71D1F6D644200836C76 /* BankOutletCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankOutletCell.swift; sourceTree = "<group>"; };
 		DE63A71F1F6D650B00836C76 /* BankATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BankATM.swift; path = ../BankATM.swift; sourceTree = "<group>"; };
+		DE63A7251F6D96FF00836C76 /* YandexSpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YandexSpeechViewController.swift; sourceTree = "<group>"; };
+		DE63A7271F6D974C00836C76 /* phrase_spotter_model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = phrase_spotter_model; sourceTree = "<group>"; };
+		DE63A72D1F6DA3E300836C76 /* OBWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OBWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE63A7301F6DA3E300836C76 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		DE63A7331F6DA3E300836C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DE63A7351F6DA3E300836C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE63A73D1F6DAC2A00836C76 /* LastOperationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastOperationCell.swift; sourceTree = "<group>"; };
 		DE91F4411F6BF87C00A4D7A7 /* TouchIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDViewController.swift; sourceTree = "<group>"; };
 		DE91F4431F6BF98E00A4D7A7 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		DE91F4451F6C0AE300A4D7A7 /* PhoneBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneBookViewController.swift; sourceTree = "<group>"; };
@@ -104,11 +139,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DE52C0F51F6D246900359F74 /* Frameworks */ = {
+		DE63A72A1F6DA3E300836C76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE52C0FA1F6D246900359F74 /* NotificationCenter.framework in Frameworks */,
+				DE63A72E1F6DA3E300836C76 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,12 +200,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DE63A72F1F6DA3E300836C76 /* OBWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DE63A7301F6DA3E300836C76 /* TodayViewController.swift */,
+				DE63A7321F6DA3E300836C76 /* MainInterface.storyboard */,
+				DE63A7351F6DA3E300836C76 /* Info.plist */,
+				DE63A73D1F6DAC2A00836C76 /* LastOperationCell.swift */,
+				DE31A59F1F6DAD6500BA2B3F /* LastOperation.swift */,
+			);
+			path = OBWidget;
+			sourceTree = "<group>";
+		};
 		DEBBE5481F69AE24001DA473 = {
 			isa = PBXGroup;
 			children = (
 				DEBBE5531F69AE24001DA473 /* OpenBank */,
 				DEBBE5681F69AE24001DA473 /* OpenBankTests */,
 				DEBBE5731F69AE24001DA473 /* OpenBankUITests */,
+				DE63A72F1F6DA3E300836C76 /* OBWidget */,
 				DEBBE5521F69AE24001DA473 /* Products */,
 				0D031DCFA7F277C0DCD02D53 /* Pods */,
 				B267F1AEC88C2F3AFDB8A78F /* Frameworks */,
@@ -183,7 +231,7 @@
 				DEBBE5511F69AE24001DA473 /* OpenBank.app */,
 				DEBBE5651F69AE24001DA473 /* OpenBankTests.xctest */,
 				DEBBE5701F69AE24001DA473 /* OpenBankUITests.xctest */,
-				DE52C0F81F6D246900359F74 /* OBWidget.appex */,
+				DE63A72D1F6DA3E300836C76 /* OBWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +239,7 @@
 		DEBBE5531F69AE24001DA473 /* OpenBank */ = {
 			isa = PBXGroup;
 			children = (
+				DE63A7271F6D974C00836C76 /* phrase_spotter_model */,
 				DE63A71F1F6D650B00836C76 /* BankATM.swift */,
 				DEBBE5541F69AE24001DA473 /* AppDelegate.swift */,
 				DEBBE5561F69AE24001DA473 /* ViewController.swift */,
@@ -216,6 +265,7 @@
 				DE63A7191F6D62BF00836C76 /* OBSelectBankATMOutletViewController.swift */,
 				DE63A71B1F6D642200836C76 /* BankATMCell.swift */,
 				DE63A71D1F6D644200836C76 /* BankOutletCell.swift */,
+				DE63A7251F6D96FF00836C76 /* YandexSpeechViewController.swift */,
 			);
 			path = OpenBank;
 			sourceTree = "<group>";
@@ -241,13 +291,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE52C0F71F6D246900359F74 /* OBWidget */ = {
+		DE63A72C1F6DA3E300836C76 /* OBWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE52C1071F6D246900359F74 /* Build configuration list for PBXNativeTarget "OBWidget" */;
+			buildConfigurationList = DE63A7391F6DA3E300836C76 /* Build configuration list for PBXNativeTarget "OBWidget" */;
 			buildPhases = (
-				DE52C0F41F6D246900359F74 /* Sources */,
-				DE52C0F51F6D246900359F74 /* Frameworks */,
-				DE52C0F61F6D246900359F74 /* Resources */,
+				DE63A7291F6DA3E300836C76 /* Sources */,
+				DE63A72A1F6DA3E300836C76 /* Frameworks */,
+				DE63A72B1F6DA3E300836C76 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -255,7 +305,7 @@
 			);
 			name = OBWidget;
 			productName = OBWidget;
-			productReference = DE52C0F81F6D246900359F74 /* OBWidget.appex */;
+			productReference = DE63A72D1F6DA3E300836C76 /* OBWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		DEBBE5501F69AE24001DA473 /* OpenBank */ = {
@@ -268,10 +318,12 @@
 				DEBBE54F1F69AE24001DA473 /* Resources */,
 				4FE2688CE3C56925E5D0F728 /* [CP] Embed Pods Frameworks */,
 				E428BF8BA8CF6CA9CF43FB11 /* [CP] Copy Pods Resources */,
+				DE63A73C1F6DA3E300836C76 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DE63A7371F6DA3E300836C76 /* PBXTargetDependency */,
 			);
 			name = OpenBank;
 			productName = OpenBank;
@@ -330,8 +382,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Aleksander Evtuhov";
 				TargetAttributes = {
-					DE52C0F71F6D246900359F74 = {
+					DE63A72C1F6DA3E300836C76 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BZ5C8942NC;
 						ProvisioningStyle = Automatic;
 					};
 					DEBBE5501F69AE24001DA473 = {
@@ -368,16 +421,17 @@
 				DEBBE5501F69AE24001DA473 /* OpenBank */,
 				DEBBE5641F69AE24001DA473 /* OpenBankTests */,
 				DEBBE56F1F69AE24001DA473 /* OpenBankUITests */,
-				DE52C0F71F6D246900359F74 /* OBWidget */,
+				DE63A72C1F6DA3E300836C76 /* OBWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DE52C0F61F6D246900359F74 /* Resources */ = {
+		DE63A72B1F6DA3E300836C76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE63A7341F6DA3E300836C76 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +442,7 @@
 				DEBBE55F1F69AE24001DA473 /* LaunchScreen.storyboard in Resources */,
 				DEBBE55C1F69AE24001DA473 /* Assets.xcassets in Resources */,
 				DEBBE55A1F69AE24001DA473 /* Main.storyboard in Resources */,
+				DE63A7281F6D974C00836C76 /* phrase_spotter_model in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,10 +601,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DE52C0F41F6D246900359F74 /* Sources */ = {
+		DE63A7291F6DA3E300836C76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE63A7311F6DA3E300836C76 /* TodayViewController.swift in Sources */,
+				DE31A5A01F6DAD6500BA2B3F /* LastOperation.swift in Sources */,
+				DE63A73E1F6DAC2A00836C76 /* LastOperationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +622,7 @@
 				DE91F4461F6C0AE300A4D7A7 /* PhoneBookViewController.swift in Sources */,
 				DE63A7141F6D431B00836C76 /* ServiceCell.swift in Sources */,
 				DE63A7201F6D650B00836C76 /* BankATM.swift in Sources */,
+				DE63A7261F6D96FF00836C76 /* YandexSpeechViewController.swift in Sources */,
 				DE63A7181F6D558100836C76 /* OBOrderedServiceViewController.swift in Sources */,
 				DE63A71A1F6D62BF00836C76 /* OBSelectBankATMOutletViewController.swift in Sources */,
 				DEB482F71F6D159C0025CB1A /* OBInstructionsViewController.swift in Sources */,
@@ -599,6 +658,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DE63A7371F6DA3E300836C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE63A72C1F6DA3E300836C76 /* OBWidget */;
+			targetProxy = DE63A7361F6DA3E300836C76 /* PBXContainerItemProxy */;
+		};
 		DEBBE5671F69AE24001DA473 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DEBBE5501F69AE24001DA473 /* OpenBank */;
@@ -612,6 +676,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DE63A7321F6DA3E300836C76 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE63A7331F6DA3E300836C76 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		DEBBE5581F69AE24001DA473 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -631,26 +703,26 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DE52C1051F6D246900359F74 /* Debug */ = {
+		DE63A73A1F6DA3E300836C76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BZ5C8942NC;
 				INFOPLIST_FILE = OBWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xxx.OpenBank.OBWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.OpenBank.main.OBWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		DE52C1061F6D246900359F74 /* Release */ = {
+		DE63A73B1F6DA3E300836C76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BZ5C8942NC;
 				INFOPLIST_FILE = OBWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xxx.OpenBank.OBWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.OpenBank.main.OBWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -754,6 +826,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4669C393083E6D18BAB1B9AC /* Pods-OpenBank.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BZ5C8942NC;
@@ -771,6 +844,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 409CBE45EC56C361F411F10F /* Pods-OpenBank.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BZ5C8942NC;
@@ -844,11 +918,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE52C1071F6D246900359F74 /* Build configuration list for PBXNativeTarget "OBWidget" */ = {
+		DE63A7391F6DA3E300836C76 /* Build configuration list for PBXNativeTarget "OBWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE52C1051F6D246900359F74 /* Debug */,
-				DE52C1061F6D246900359F74 /* Release */,
+				DE63A73A1F6DA3E300836C76 /* Debug */,
+				DE63A73B1F6DA3E300836C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
