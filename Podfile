@@ -9,7 +9,8 @@ pod 'MFCard'
 pod 'EPContactsPicker'
 pod 'Instructions', '~> 1.0.0'
 pod 'AMPopTip'
-pod ‘QRCode’
+pod 'QRCode'
+pod 'YandexSpeechKit', '2.5.0'
 
   # Pods for OpenBank
 

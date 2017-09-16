@@ -34,10 +34,14 @@
 	<string>This app requires contacts access to function properly.</string>
 	<key>NSContactsUsageDescription </key>
 	<string>This app requires contacts access to function properly.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>app</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

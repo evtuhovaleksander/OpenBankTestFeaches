@@ -12,6 +12,15 @@
 		99EBB9347A2A1ED9BEAE8BAA /* Pods_OpenBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEE77E928FE6DBC5E01156F /* Pods_OpenBankTests.framework */; };
 		DE52C0FA1F6D246900359F74 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE52C0F91F6D246900359F74 /* NotificationCenter.framework */; };
 		DE52C10A1F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE52C1091F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift */; };
+		DE63A7101F6D351800836C76 /* OBQRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A70F1F6D351800836C76 /* OBQRCodeScannerViewController.swift */; };
+		DE63A7121F6D3E4800836C76 /* OBChooseServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A7111F6D3E4800836C76 /* OBChooseServiceViewController.swift */; };
+		DE63A7141F6D431B00836C76 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A7131F6D431B00836C76 /* ServiceCell.swift */; };
+		DE63A7161F6D4F0F00836C76 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A7151F6D4F0F00836C76 /* Service.swift */; };
+		DE63A7181F6D558100836C76 /* OBOrderedServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A7171F6D558100836C76 /* OBOrderedServiceViewController.swift */; };
+		DE63A71A1F6D62BF00836C76 /* OBSelectBankATMOutletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A7191F6D62BF00836C76 /* OBSelectBankATMOutletViewController.swift */; };
+		DE63A71C1F6D642200836C76 /* BankATMCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A71B1F6D642200836C76 /* BankATMCell.swift */; };
+		DE63A71E1F6D644200836C76 /* BankOutletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A71D1F6D644200836C76 /* BankOutletCell.swift */; };
+		DE63A7201F6D650B00836C76 /* BankATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A71F1F6D650B00836C76 /* BankATM.swift */; };
 		DE91F4421F6BF87C00A4D7A7 /* TouchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91F4411F6BF87C00A4D7A7 /* TouchIDViewController.swift */; };
 		DE91F4441F6BF98F00A4D7A7 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE91F4431F6BF98E00A4D7A7 /* LocalAuthentication.framework */; };
 		DE91F4461F6C0AE300A4D7A7 /* PhoneBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE91F4451F6C0AE300A4D7A7 /* PhoneBookViewController.swift */; };
@@ -58,6 +67,15 @@
 		DE52C0F81F6D246900359F74 /* OBWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OBWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE52C0F91F6D246900359F74 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		DE52C1091F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBQRCodeGeneratorViewController.swift; sourceTree = "<group>"; };
+		DE63A70F1F6D351800836C76 /* OBQRCodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBQRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		DE63A7111F6D3E4800836C76 /* OBChooseServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBChooseServiceViewController.swift; sourceTree = "<group>"; };
+		DE63A7131F6D431B00836C76 /* ServiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		DE63A7151F6D4F0F00836C76 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DE63A7171F6D558100836C76 /* OBOrderedServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBOrderedServiceViewController.swift; sourceTree = "<group>"; };
+		DE63A7191F6D62BF00836C76 /* OBSelectBankATMOutletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBSelectBankATMOutletViewController.swift; sourceTree = "<group>"; };
+		DE63A71B1F6D642200836C76 /* BankATMCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankATMCell.swift; sourceTree = "<group>"; };
+		DE63A71D1F6D644200836C76 /* BankOutletCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankOutletCell.swift; sourceTree = "<group>"; };
+		DE63A71F1F6D650B00836C76 /* BankATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BankATM.swift; path = ../BankATM.swift; sourceTree = "<group>"; };
 		DE91F4411F6BF87C00A4D7A7 /* TouchIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDViewController.swift; sourceTree = "<group>"; };
 		DE91F4431F6BF98E00A4D7A7 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		DE91F4451F6C0AE300A4D7A7 /* PhoneBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneBookViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +191,7 @@
 		DEBBE5531F69AE24001DA473 /* OpenBank */ = {
 			isa = PBXGroup;
 			children = (
+				DE63A71F1F6D650B00836C76 /* BankATM.swift */,
 				DEBBE5541F69AE24001DA473 /* AppDelegate.swift */,
 				DEBBE5561F69AE24001DA473 /* ViewController.swift */,
 				DEBBE5581F69AE24001DA473 /* Main.storyboard */,
@@ -189,6 +208,14 @@
 				DEB482F41F6D10780025CB1A /* OBTipsViewController.swift */,
 				DEB482F61F6D159C0025CB1A /* OBInstructionsViewController.swift */,
 				DE52C1091F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift */,
+				DE63A70F1F6D351800836C76 /* OBQRCodeScannerViewController.swift */,
+				DE63A7111F6D3E4800836C76 /* OBChooseServiceViewController.swift */,
+				DE63A7131F6D431B00836C76 /* ServiceCell.swift */,
+				DE63A7151F6D4F0F00836C76 /* Service.swift */,
+				DE63A7171F6D558100836C76 /* OBOrderedServiceViewController.swift */,
+				DE63A7191F6D62BF00836C76 /* OBSelectBankATMOutletViewController.swift */,
+				DE63A71B1F6D642200836C76 /* BankATMCell.swift */,
+				DE63A71D1F6D644200836C76 /* BankOutletCell.swift */,
 			);
 			path = OpenBank;
 			sourceTree = "<group>";
@@ -309,6 +336,7 @@
 					};
 					DEBBE5501F69AE24001DA473 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BZ5C8942NC;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -530,11 +558,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE52C10A1F6D2CEB00359F74 /* OBQRCodeGeneratorViewController.swift in Sources */,
+				DE63A71E1F6D644200836C76 /* BankOutletCell.swift in Sources */,
 				DEB482F31F6D06C00025CB1A /* FaceTimeCallViewController.swift in Sources */,
+				DE63A7161F6D4F0F00836C76 /* Service.swift in Sources */,
 				DE91F4461F6C0AE300A4D7A7 /* PhoneBookViewController.swift in Sources */,
+				DE63A7141F6D431B00836C76 /* ServiceCell.swift in Sources */,
+				DE63A7201F6D650B00836C76 /* BankATM.swift in Sources */,
+				DE63A7181F6D558100836C76 /* OBOrderedServiceViewController.swift in Sources */,
+				DE63A71A1F6D62BF00836C76 /* OBSelectBankATMOutletViewController.swift in Sources */,
 				DEB482F71F6D159C0025CB1A /* OBInstructionsViewController.swift in Sources */,
+				DE63A7121F6D3E4800836C76 /* OBChooseServiceViewController.swift in Sources */,
 				DEBBE5571F69AE24001DA473 /* ViewController.swift in Sources */,
+				DE63A71C1F6D642200836C76 /* BankATMCell.swift in Sources */,
 				DEB482F51F6D10780025CB1A /* OBTipsViewController.swift in Sources */,
+				DE63A7101F6D351800836C76 /* OBQRCodeScannerViewController.swift in Sources */,
 				DE91F4421F6BF87C00A4D7A7 /* TouchIDViewController.swift in Sources */,
 				DEBBE58F1F6B0A1F001DA473 /* RegularPaymentsViewController.swift in Sources */,
 				DEBBE58D1F6B01B0001DA473 /* AplePayViewController.swift in Sources */,
@@ -719,7 +756,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BZ5C8942NC;
 				INFOPLIST_FILE = OpenBank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.OpenBank.main;
@@ -736,7 +773,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = BZ5C8942NC;
 				INFOPLIST_FILE = OpenBank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.OpenBank.main;

@@ -5,6 +5,7 @@ PODS:
   - MFCard (1.2.3)
   - QRCode (2.0)
   - RNCryptor (5.0.1)
+  - YandexSpeechKit (2.5.0)
 
 DEPENDENCIES:
   - AMPopTip
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - MFCard
   - QRCode
   - RNCryptor (~> 5.0)
+  - YandexSpeechKit (= 2.5.0)
 
 SPEC CHECKSUMS:
   AMPopTip: 81f57556ae12500d30ff595078b1b6d11076ced8
@@ -21,7 +23,8 @@ SPEC CHECKSUMS:
   MFCard: b27333d126425819eef695a3ab44150bd6b46e45
   QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
   RNCryptor: 2e352a488779d1a9184ab629be22a7c5bc84acb5
+  YandexSpeechKit: 4c0ee53139175bebef965dfa858044dc7c14b0b9
 
-PODFILE CHECKSUM: d9a90899764d17342583eb35d18251133117e06d
+PODFILE CHECKSUM: 80fa8e3cbde1e7643fcd2ad5fc4948dda5b3f91b
 
 COCOAPODS: 1.2.1

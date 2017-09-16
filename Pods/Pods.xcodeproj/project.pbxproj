@@ -7,101 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03C0AEFEBE89F73FA827E7C416047D2C /* PopTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9F4A853E9203609D672F5A0251AA1 /* PopTip.swift */; };
+		03C0AEFEBE89F73FA827E7C416047D2C /* PopTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D471B50B082439989EE65E66C940BBF6 /* PopTip.swift */; };
 		04695C20761665F2DFD7F8D4E8C3590B /* Pods-OpenBankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 091A308F04E5A037665D7152C3A9A607 /* Pods-OpenBankTests-dummy.m */; };
-		04D8B64F91CE775B601BE97D70F835C1 /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98257092325A8C37862B914CF0CB1D0 /* EPContactCell.xib */; };
-		06D693FEC90901D1E7E4AFEC89CCBF7A /* MFCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1A755A6306DFAB803A03345BB5D193 /* MFCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B68E54F9AE74E82E00D17921EDD9C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCEC5914CFACBDA5C45E9A8705DD536 /* Assets.xcassets */; };
-		127E5015D838330AAD52E6DEA61526A5 /* PopTip+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF35780CA2B16213AFFDC90ADE45F8D4 /* PopTip+Draw.swift */; };
-		140DDA179963DD77DF05DF38496CD7E0 /* SkipViewDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C969562C205C4AD41123AF62F35B9 /* SkipViewDisplayManager.swift */; };
+		04D8B64F91CE775B601BE97D70F835C1 /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266ACEDF7C176C2D1B1214F53399633C /* EPContactCell.xib */; };
+		06D693FEC90901D1E7E4AFEC89CCBF7A /* MFCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A322270663453CCD220C7A01B28E28 /* MFCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B68E54F9AE74E82E00D17921EDD9C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3914F984FB0B19C446180CBF5FBEA /* Assets.xcassets */; };
+		127E5015D838330AAD52E6DEA61526A5 /* PopTip+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68018CB0981242EA9D82AFF32F5BB44C /* PopTip+Draw.swift */; };
+		140DDA179963DD77DF05DF38496CD7E0 /* SkipViewDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C053604B9C72EC353B5659CA82202D /* SkipViewDisplayManager.swift */; };
 		14887BA44297D75EC938650C46C531BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
-		171E18A3574BF3A1F419D641DE307C74 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68E0EB417DD8C328A5A673276D8F28F /* OverlayView.swift */; };
-		186429D6C5130E280309D151EB9C9ED9 /* FlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E3D33E8E32CA10B1728C7A4F6EC882 /* FlowManager.swift */; };
-		1F2D1F632CE7D0FD62FAF0AEECE473B7 /* QRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F0494C22B4DB6DCB7536B88BC11B74 /* QRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		207FF84C492167E6CCF48D18FE915DE7 /* CoachMarksController+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40FBA4F22B733561EE1640D9D19E591 /* CoachMarksController+Proxy.swift */; };
-		20984CE0DC9A89D9E056C5AFB4E91060 /* CoachMarkSkipDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02A637FD424E985AB76B8CC13C0E10 /* CoachMarkSkipDefaultView.swift */; };
+		171E18A3574BF3A1F419D641DE307C74 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7B3D49226837B6794E9ECADFA3122 /* OverlayView.swift */; };
+		186429D6C5130E280309D151EB9C9ED9 /* FlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23549407F35C17BAD13B1FCD185DE88A /* FlowManager.swift */; };
+		1F2D1F632CE7D0FD62FAF0AEECE473B7 /* QRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA8A326D15628049818EE0614289C8 /* QRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		207FF84C492167E6CCF48D18FE915DE7 /* CoachMarksController+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F6D9B5838B5D3E0364CDA2C3B0875 /* CoachMarksController+Proxy.swift */; };
+		20984CE0DC9A89D9E056C5AFB4E91060 /* CoachMarkSkipDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC4CFD05FEF3F7D2F00952A1BB65D9 /* CoachMarkSkipDefaultView.swift */; };
 		209E34AD49E4B99A184475A3C43DA13A /* Pods-OpenBankTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BDBC3EFA35C36AE83FF15B3CD20883 /* Pods-OpenBankTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21C47520EC33CD2347C6D351743E6919 /* CoachMarkInnerLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBD9C29F856EDF33FD5162EF9C9BC6C /* CoachMarkInnerLayoutHelper.swift */; };
-		249159D13B1AE3FABB2259E8DD19A7A0 /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA460087903F4C328D29948C3A90134 /* RNCryptor-dummy.m */; };
+		21C47520EC33CD2347C6D351743E6919 /* CoachMarkInnerLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09299914E922489FECC1866E2DA047B7 /* CoachMarkInnerLayoutHelper.swift */; };
+		249159D13B1AE3FABB2259E8DD19A7A0 /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A6A3CCFD378E5D9BDC155E007414F6 /* RNCryptor-dummy.m */; };
 		26EBF9B54D61F5D304EBB6A4973B395A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
-		318C03C59791EC261BBAD3098C80C171 /* MFCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B22DBF96F49DC000319641F7D5002 /* MFCardView.swift */; };
-		3264BF09E7BD78647433B981398A8D4F /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02107DAABD3D7F0BF8732E22C068BDC3 /* UIView+Layout.swift */; };
-		32849C80D8C715FE96B7BA5F6DE37F43 /* EPContactsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253FB5EDD1A6B008C9B37CFDE9D1AC5C /* EPContactsPicker-dummy.m */; };
+		318C03C59791EC261BBAD3098C80C171 /* MFCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EACCAB140BF0BE09766D289E08D84C2 /* MFCardView.swift */; };
+		3264BF09E7BD78647433B981398A8D4F /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DBB6AF7F8150DE74171D27B5D6EA7C /* UIView+Layout.swift */; };
+		32849C80D8C715FE96B7BA5F6DE37F43 /* EPContactsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BC28E1FAE1E293F7B83A148F19C4E8 /* EPContactsPicker-dummy.m */; };
 		32AAE86F0D30C7E4BD0312994F23EFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
 		39765571F4E471A6B00F93B3E1F878CD /* MFCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E2DD914D1E6FACA9B9122CA45F98F42 /* MFCard.bundle */; };
-		3A3A63DC173B2E7E7E08AEDD30C5111C /* CreditCardValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C41FEDFDC227CC365595ADDB4F3BA /* CreditCardValidationType.swift */; };
-		43A27513C0302163E0DB75246EE4B1CA /* PopTip+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0F4F513F149A0522EBA9B7613ED928 /* PopTip+Transitions.swift */; };
-		445633379EA1CD0B1BF73BF3A2DC28EC /* CoachMarkArrowOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA36D8DD75C7246CA88AB03B838456D6 /* CoachMarkArrowOrientation.swift */; };
-		4BE730A21ABA156078F7FD73E4AF4F7C /* BlurringOverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53342ECC1DF900A883AC0A4052441C8 /* BlurringOverlayStyleManager.swift */; };
-		4D39B671B4A3F487BA9AC7FCEF59C92D /* CreditCardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591A76628AD86EC77952831688559AC3 /* CreditCardValidator.swift */; };
-		503EADA1470198343605E5D0E210F59E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C57491FA202E3328984C518469BB4 /* Card.swift */; };
-		517354331702F525836ED4E675283B1A /* Instructions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DA399D2531D00AD4047B9422B3D06E /* Instructions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51F17D11CC0746A03EA38CE8C344AC49 /* MFCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB5A9AC62453B36FD6E3541C21BFCE7 /* MFCardView.xib */; };
-		541EB15CD327370200DCEA8EF2328A74 /* InstructionsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AD73A6AB845A7307494275D941659 /* InstructionsWindow.swift */; };
-		5B251BE5879C055243066547C2D8857F /* CoachMarkBodyDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9DF365B0182F660FB1F4685BBD472 /* CoachMarkBodyDefaultView.swift */; };
+		3A3A63DC173B2E7E7E08AEDD30C5111C /* CreditCardValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2337ECBF136EDB2488E51806FAD3A77C /* CreditCardValidationType.swift */; };
+		43A27513C0302163E0DB75246EE4B1CA /* PopTip+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903227D9A95DC409199104F7301CC480 /* PopTip+Transitions.swift */; };
+		445633379EA1CD0B1BF73BF3A2DC28EC /* CoachMarkArrowOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF5477054875EA25D44A12707A790C /* CoachMarkArrowOrientation.swift */; };
+		4BE730A21ABA156078F7FD73E4AF4F7C /* BlurringOverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717C16AAD313596456856B7671A83CA0 /* BlurringOverlayStyleManager.swift */; };
+		4D39B671B4A3F487BA9AC7FCEF59C92D /* CreditCardValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780C807EFCDB74522065ED0A32C2D9BB /* CreditCardValidator.swift */; };
+		503EADA1470198343605E5D0E210F59E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9F9273DFC6BF606B98642316A26C7 /* Card.swift */; };
+		517354331702F525836ED4E675283B1A /* Instructions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5240E5B2BAED2DFCC9DE9FFE0887D7B8 /* Instructions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F17D11CC0746A03EA38CE8C344AC49 /* MFCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1F5D95F80B4D49934EC01AD5C2B285 /* MFCardView.xib */; };
+		541EB15CD327370200DCEA8EF2328A74 /* InstructionsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865446B67EB553F7A925621A68BDE5F /* InstructionsWindow.swift */; };
+		5B251BE5879C055243066547C2D8857F /* CoachMarkBodyDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27328288BB1D3132D63AB1B3A480F5 /* CoachMarkBodyDefaultView.swift */; };
 		61A5872676FABD3A500BA569174D7062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
-		61EF4DFC1C6DF07C93D35021AC3FFBA0 /* CoachMarksControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673836AC164AF3A73FC385799C9D44E3 /* CoachMarksControllerDelegate.swift */; };
-		63CE8D505F8959E7980485341DF99D0B /* CoachMarkSkipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA97E30BC05140902E8CD8CC90DA27 /* CoachMarkSkipView.swift */; };
-		645FEA9A9F281C87D27DBCAFCE1EB842 /* AMPopTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79678A460FD929BCC3275B804ECC5BB7 /* AMPopTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		662789E078DD9BC50449727C6CD89E24 /* CoachMarkArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5013D15CED33B35E0EEC495BCBD8982E /* CoachMarkArrowView.swift */; };
+		61EF4DFC1C6DF07C93D35021AC3FFBA0 /* CoachMarksControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887A257BEF5A025BB28FCF978957A81C /* CoachMarksControllerDelegate.swift */; };
+		63CE8D505F8959E7980485341DF99D0B /* CoachMarkSkipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE2087E32C4B4264ACF1C392B6690B /* CoachMarkSkipView.swift */; };
+		645FEA9A9F281C87D27DBCAFCE1EB842 /* AMPopTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE1E9DFC4D682C95FE51DEDDBC9D9BA /* AMPopTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662789E078DD9BC50449727C6CD89E24 /* CoachMarkArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168537BE867190582CAC8482C39C3EC /* CoachMarkArrowView.swift */; };
 		677DB4D73E5558C681199DE19F7DF029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
-		69E39DC32B52B63BEECD2C27B8272E12 /* CoachMarkArrowDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D083376B31DD4C05B6861A9477C49 /* CoachMarkArrowDefaultView.swift */; };
-		6B24BCA1CBE4A2FC3C07F8F1C39BE8BD /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B761548805D0F00CA4F2580E07FB33FE /* CIImageExtension.swift */; };
-		6C6E2E731A3F93E064E4DBAC7E7F8C7D /* CoachMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B41E65B54BCD6791AC1FD6FD9E8573 /* CoachMark.swift */; };
+		69E39DC32B52B63BEECD2C27B8272E12 /* CoachMarkArrowDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAFDAA292D679E5EEEE601514E2B67 /* CoachMarkArrowDefaultView.swift */; };
+		6B24BCA1CBE4A2FC3C07F8F1C39BE8BD /* CIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB76347C00B585E37D283C5B611A13F /* CIImageExtension.swift */; };
+		6C6E2E731A3F93E064E4DBAC7E7F8C7D /* CoachMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74700D270F2BD548DD70CD707A2BE245 /* CoachMark.swift */; };
 		6E01EB8AAAA87A93ECF203D4A761BD89 /* EPContactsPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4FC61F6FA1982751D37C04F080F9CD3 /* EPContactsPicker.bundle */; };
-		6E8C93349450F8CD87EAD97251BC94A0 /* CoachMarkBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4266E2B0E646320974AF45505B3617C /* CoachMarkBodyView.swift */; };
-		767A45C6C56E459DAE8AFBA9100E5ACF /* RNCryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFC389878D6E0E515173D4D8D786FB7 /* RNCryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C1B5FD79400C7BCF716D05F0A3C84E3 /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8D0CBABE42365AA37EA96F30E5C5B0 /* EPContact.swift */; };
-		7D258D7C1D85184055D112B85752D53A /* OverlaySnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACB4BBD44A1BD4AEB80245DB1F40B7 /* OverlaySnapshotView.swift */; };
-		807CF8617EE5EEFB64DD3DD68E5F17C4 /* CoachMarkPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C500B728A41BBC8F80A757BEF50B85 /* CoachMarkPosition.swift */; };
-		867788EC84354CDA3D204FF1DB6A4A22 /* LBZSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88D1FE2A814D5127EFBD9506015CBF4 /* LBZSpinner.swift */; };
-		8A70728CDA14F12BD0EE825C88C768F6 /* EPContactsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD75CFD5CE1595C26472D146B35AAA5 /* EPContactsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CEFB1A260DE70914876CA6FE778C618 /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E7A09C0CDFA43F68AC799709A0354 /* EPContactsPicker.swift */; };
-		923CDC888551C506DB35780C8DF1A067 /* CoachMarksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10279EE8A640B3452C609BD330507C2 /* CoachMarksController.swift */; };
-		94E3F930C984F2AA4EB84E2AD094B8CF /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C79A4DC7FA1CB42843114D297BBD7A /* UIImageViewExtension.swift */; };
-		993057D7167B5B2E6CADC3D686B072A2 /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2801E32FF41155C7AA3F264AB63686E8 /* EPContactCell.swift */; };
-		9F0B23627A231F1261D1CFDCCDBDD648 /* OverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30A2A2AA5B6166546F8CD1F64E1230A /* OverlayManager.swift */; };
-		A044E31CFADB2633438C7A9429532B76 /* MFCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A14898FC1CB1A79089E29C24667D6C4 /* MFCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A369C0B46F844A5CDF1ED482C3869FA0 /* TranslucentOverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F3661F4EABFA8FFD3F99EF44960BE /* TranslucentOverlayStyleManager.swift */; };
-		A46392046A5B0726674C9FC4F6B173EF /* CoachMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E17E85C5AFA32362C941D63A610F2D6 /* CoachMarkView.swift */; };
-		A61341A7FF0C11A4E497A34B56E2C0FA /* DummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AB8F0E1D24E89DA9BCAE605EF2683D /* DummyView.swift */; };
-		A9EA2C22B4276747CB82EAC1D0778ED0 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8376C474D49E00DCB25A28F7956077 /* Instructions.swift */; };
-		AAFBFFBD794DD9A3EDD5F47E483DB11B /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = BB553D5D0731E0BAB1840EA82661A1EF /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8C93349450F8CD87EAD97251BC94A0 /* CoachMarkBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F830295E8CE4B4501FC258BB63E326 /* CoachMarkBodyView.swift */; };
+		767A45C6C56E459DAE8AFBA9100E5ACF /* RNCryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 890E06E255AE0C47CFB86A17E70ABE4F /* RNCryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1B5FD79400C7BCF716D05F0A3C84E3 /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA75914E1CDA4C644CED59E689085F0 /* EPContact.swift */; };
+		7D258D7C1D85184055D112B85752D53A /* OverlaySnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9869156F63556A9E0A06CFC399E94EE3 /* OverlaySnapshotView.swift */; };
+		807CF8617EE5EEFB64DD3DD68E5F17C4 /* CoachMarkPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ADDF53330BCDD759032B0B2FBC885F /* CoachMarkPosition.swift */; };
+		867788EC84354CDA3D204FF1DB6A4A22 /* LBZSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E78CDC7CDC5CFD8CB6C33617C58786 /* LBZSpinner.swift */; };
+		8A70728CDA14F12BD0EE825C88C768F6 /* EPContactsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5CDC55E225E8B7B214B7023F917DD3 /* EPContactsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CEFB1A260DE70914876CA6FE778C618 /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E6C058B1E49E19D4D792BFF4DA87D /* EPContactsPicker.swift */; };
+		923CDC888551C506DB35780C8DF1A067 /* CoachMarksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279089D224C9B59E087F186C194FBC29 /* CoachMarksController.swift */; };
+		94E3F930C984F2AA4EB84E2AD094B8CF /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118AA6E2127A91CDD16317578B17D5B /* UIImageViewExtension.swift */; };
+		993057D7167B5B2E6CADC3D686B072A2 /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FB1D0F121B3C1E6B9C149A2163BE7 /* EPContactCell.swift */; };
+		9F0B23627A231F1261D1CFDCCDBDD648 /* OverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB01E059AD8DBBA09929CD435CFD6A /* OverlayManager.swift */; };
+		A044E31CFADB2633438C7A9429532B76 /* MFCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 464BFA6E4DC19E9797E07D2F47DEF9A9 /* MFCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A369C0B46F844A5CDF1ED482C3869FA0 /* TranslucentOverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FBEF3DF017D734F7584337B094CC56 /* TranslucentOverlayStyleManager.swift */; };
+		A46392046A5B0726674C9FC4F6B173EF /* CoachMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059299932B9B8D42E882052F3256E07 /* CoachMarkView.swift */; };
+		A61341A7FF0C11A4E497A34B56E2C0FA /* DummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790081144F157F9CC5DFFD09BF417C42 /* DummyView.swift */; };
+		A9EA2C22B4276747CB82EAC1D0778ED0 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE30390B1E1F3EB52D3D70D07BA37C67 /* Instructions.swift */; };
+		AAFBFFBD794DD9A3EDD5F47E483DB11B /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 604721B55B3E75188B751AF1AAF860C8 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B304C19DB25657BD79757BDBE5D303D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
-		B4F73EC084EF2CE107909250D43CC6E7 /* InstructionsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E848A9E53C6B1E04CAD8A34EBBFDBB /* InstructionsRootView.swift */; };
-		B841F532944A48304D17238F98330F80 /* CoachMarksControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C7B494F00518AABFB0AF50842E24B /* CoachMarksControllerDataSource.swift */; };
-		BA0C7E7B2289423FC6EAA0D61B6C10FF /* AMPopTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C273E58988AE6AB075DD10B6D66EC7 /* AMPopTip-dummy.m */; };
-		BEDCDB7564A3C113DBA09D5C37703081 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A0DC9F3E82864B51FDFA7F2E62F662 /* CIColorExtension.swift */; };
-		BF26BE0A2F690B05714DD954B703F78D /* CoachMarkViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD8CBF4C17A4E887EC435E70A9F66E /* CoachMarkViewControllerDelegate.swift */; };
-		C07BB88516094D1FBB36934417E3A677 /* CoachMarkBodyHighlightArrowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10554136576979AF477F4B0DA50A53C /* CoachMarkBodyHighlightArrowDelegate.swift */; };
-		C18F1A7E45B07EC54503CCD0A2577D6F /* OverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FC935F054FE4F0A244755C416134B /* OverlayStyleManager.swift */; };
+		B4F73EC084EF2CE107909250D43CC6E7 /* InstructionsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EF5B8D8292D16939EE2C5DAB466A14 /* InstructionsRootView.swift */; };
+		B841F532944A48304D17238F98330F80 /* CoachMarksControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD788EA71438B4B6DC400CF239AD5C3D /* CoachMarksControllerDataSource.swift */; };
+		BA0C7E7B2289423FC6EAA0D61B6C10FF /* AMPopTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 302BF0C67A694DFA466612FC82C56CBD /* AMPopTip-dummy.m */; };
+		BEDCDB7564A3C113DBA09D5C37703081 /* CIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC7DFF066EAC8027251BEA2A934470C /* CIColorExtension.swift */; };
+		BF26BE0A2F690B05714DD954B703F78D /* CoachMarkViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC67F345C7725DAFFB4EF2865D8DE96 /* CoachMarkViewControllerDelegate.swift */; };
+		C07BB88516094D1FBB36934417E3A677 /* CoachMarkBodyHighlightArrowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60D139A7785707D524E68B23556DB5 /* CoachMarkBodyHighlightArrowDelegate.swift */; };
+		C18F1A7E45B07EC54503CCD0A2577D6F /* OverlayStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8A399D0F4FC067695F3BF12A51C7F /* OverlayStyleManager.swift */; };
 		C36D91E2F8EA946B0D74005985C049ED /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2256ECC47751F877759C79D181457B3C /* Contacts.framework */; };
 		C47483E53D51B0CD8681BF775DC4EA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
-		C86ACB08BD2BF29C0F1C30855A276604 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E81E9F1A2A3364745900F510BDD0E /* Images.xcassets */; };
+		C86ACB08BD2BF29C0F1C30855A276604 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A02EF90B714DDB2B4D2C6618C74305 /* Images.xcassets */; };
 		C98B6C417C4DEF6DEF20AE7292AB1990 /* Pods-OpenBankUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68790720866DCC57285A3FA191A7BCA4 /* Pods-OpenBankUITests-dummy.m */; };
 		CB1BD197DD2A66EC9F91DFDEA17937EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
-		CD93D728FA3273BAC4D479EAD3B824D3 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE263D063645C8272E712C1CD3FFCEE8 /* EPExtensions.swift */; };
-		D1759507329DDDD2CE8B0A8EE1C7A157 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B517D3339B5B0C19BAC559211245A7 /* QRCode.swift */; };
+		CD93D728FA3273BAC4D479EAD3B824D3 /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43700977BA4492A3F3DE079DC64077E3 /* EPExtensions.swift */; };
+		D1759507329DDDD2CE8B0A8EE1C7A157 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBDD9873395DB3FF7FCEA7AC4F48486 /* QRCode.swift */; };
 		D1CE7D568DDA80A9450876967DE426C3 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7349CFF7EBB7B7861A0F033FFDD1F9FF /* ContactsUI.framework */; };
-		D2914216C5B87792A2932D6CE0137C91 /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73FA13BD7D23E1021E59BDCF50E994 /* RNCryptor.swift */; };
-		D8123F6B62434995587E8ABE550975ED /* CoachMarkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F932600B4A0438B74DC830633056E /* CoachMarkHelper.swift */; };
-		D9EE5D7A6E020ADA053C824322E33601 /* CoachMarkLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BCA1DFB99A2BE509F04BF38D9E5903 /* CoachMarkLayoutHelper.swift */; };
-		DA0098F163A0EC0741B022D2FC0D60FA /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98257092325A8C37862B914CF0CB1D0 /* EPContactCell.xib */; };
-		DB2B4D39E364F0872B8A3C554CB5101D /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8099A7034BAEBBC6739337C8CB035BDB /* Toast.swift */; };
-		DB865D27C97A05DEA2296F5985BB3562 /* CoachMarkDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F61332F77EE0FF4DBC20E476087DAC /* CoachMarkDisplayManager.swift */; };
+		D2914216C5B87792A2932D6CE0137C91 /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008E21011CB86F42B9492092E248A52 /* RNCryptor.swift */; };
+		D8123F6B62434995587E8ABE550975ED /* CoachMarkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4433ABE00880F488729264DE7ED34C /* CoachMarkHelper.swift */; };
+		D9EE5D7A6E020ADA053C824322E33601 /* CoachMarkLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E60A321BFB880E512C5B9F77825E4 /* CoachMarkLayoutHelper.swift */; };
+		DA0098F163A0EC0741B022D2FC0D60FA /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266ACEDF7C176C2D1B1214F53399633C /* EPContactCell.xib */; };
+		DB2B4D39E364F0872B8A3C554CB5101D /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BF2DBC645A071935BE843EDA115FAB /* Toast.swift */; };
+		DB865D27C97A05DEA2296F5985BB3562 /* CoachMarkDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBF970FC2E42D02DC8BBC475CEC5A7E /* CoachMarkDisplayManager.swift */; };
 		DCF3FD039C8D5B21922F037E300CE602 /* Pods-OpenBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F878C8B17BA3FFE56488B66B07FEC60 /* Pods-OpenBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE98CEF93B6666B3A8EFE8D57E7A6EB8 /* QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D852F26DFA26BBF3DE2DE041CA6ACE0 /* QRCode-dummy.m */; };
-		E32F02359A604D994CA16B52FA50C8A0 /* CoachMarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90545293F078781E2BC1AD2F2C812A3 /* CoachMarksViewController.swift */; };
-		E35ABB4DF79E32DBB8DEEDAE81A53F2E /* UIImage+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A4E1F93BC55AD1D924073D17DAB6D4 /* UIImage+Bundle.swift */; };
-		E47F1F609724B6051C953237AF25E6E8 /* Instructions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527B4230A05070727057496629A9663 /* Instructions-dummy.m */; };
-		E8C1B354AC6AF241578B38DE8C5D15AC /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CC0C16F273C61307C3A38FC912171E /* EPConstants.swift */; };
+		DE98CEF93B6666B3A8EFE8D57E7A6EB8 /* QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EAF35A646AEF6672BEB1F5311A38DC /* QRCode-dummy.m */; };
+		E32F02359A604D994CA16B52FA50C8A0 /* CoachMarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC8EECF9800BD89B7ACD413F532BC7 /* CoachMarksViewController.swift */; };
+		E35ABB4DF79E32DBB8DEEDAE81A53F2E /* UIImage+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45786DEE3F6FCF7A618E3F46B2653CE4 /* UIImage+Bundle.swift */; };
+		E47F1F609724B6051C953237AF25E6E8 /* Instructions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100E8DB5D720DE3BF92EC30AA17CE56 /* Instructions-dummy.m */; };
+		E8C1B354AC6AF241578B38DE8C5D15AC /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DD20862471F980899AC7E074A9C326 /* EPConstants.swift */; };
 		E99CBC73FDE6865D25FE1A69A457B7EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */; };
-		F1FC3CED75603BC68AE7A694B15A3F1E /* MFCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555B349809D42CD4AE7683975F88BC6 /* MFCard-dummy.m */; };
-		F374A73CBB605B1C3F2FE0AE89B7A9C4 /* CoachMarkBodyDefaultViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07EC325E9EA67A038425FA753D1D3D /* CoachMarkBodyDefaultViewHelper.swift */; };
+		F1FC3CED75603BC68AE7A694B15A3F1E /* MFCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8932A4306A5D346BBA1DB91708F42E08 /* MFCard-dummy.m */; };
+		F374A73CBB605B1C3F2FE0AE89B7A9C4 /* CoachMarkBodyDefaultViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C1634F6EAC531BA4C9AC4EA6FDAC9E /* CoachMarkBodyDefaultViewHelper.swift */; };
 		F3A1981569818530276A350D7348F4C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A685EB43BB96A28F3BD513AFC95E5CB1 /* UIKit.framework */; };
 		F643A5618AFFD758D94A031539C9A13A /* Pods-OpenBankUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 553A08F2855369C79C117D91D5AF6483 /* Pods-OpenBankUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F85EB9A35B88EAFAFB59C53DD7F82289 /* Pods-OpenBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506C625C6B898A67E11D677CC356062 /* Pods-OpenBank-dummy.m */; };
-		FE16EA205F170B3FFC402D3C18DD0B2A /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF1BC01033C18497658305BC26EB671 /* MaskView.swift */; };
+		FE16EA205F170B3FFC402D3C18DD0B2A /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2710EF77F80DD385996F8166B9352 /* MaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,152 +164,154 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02107DAABD3D7F0BF8732E22C068BDC3 /* UIView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "Sources/Instructions/Helpers/Internal/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
-		05A4E1F93BC55AD1D924073D17DAB6D4 /* UIImage+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Bundle.swift"; path = "Sources/Instructions/Helpers/Internal/Extensions/UIImage+Bundle.swift"; sourceTree = "<group>"; };
-		05A7729050E5558A9DA4E05C55E1C7EE /* Instructions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Instructions.modulemap; sourceTree = "<group>"; };
+		0118AA6E2127A91CDD16317578B17D5B /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = QRCode/UIImageViewExtension.swift; sourceTree = "<group>"; };
 		06BE78C7878A9163B560934FD0E6CFF9 /* Pods-OpenBankUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenBankUITests-frameworks.sh"; sourceTree = "<group>"; };
 		06CE2E029A009ECADE7B5433AB219D16 /* Pods-OpenBankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OpenBankTests.modulemap"; sourceTree = "<group>"; };
 		06E82B02EBE84A84039C540AF4E9F8B9 /* Pods-OpenBankUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenBankUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		07711E004B75B5354A2E5828927B5A78 /* MFCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MFCard.framework; path = MFCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08F61332F77EE0FF4DBC20E476087DAC /* CoachMarkDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkDisplayManager.swift; path = Sources/Instructions/Managers/Internal/CoachMarkDisplayManager.swift; sourceTree = "<group>"; };
+		086E07BFC8DC555E2BC8E45E74768791 /* QRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-prefix.pch"; sourceTree = "<group>"; };
 		091A308F04E5A037665D7152C3A9A607 /* Pods-OpenBankTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenBankTests-dummy.m"; sourceTree = "<group>"; };
-		0E17E85C5AFA32362C941D63A610F2D6 /* CoachMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkView.swift; path = Sources/Instructions/Views/CoachMarkView.swift; sourceTree = "<group>"; };
+		09299914E922489FECC1866E2DA047B7 /* CoachMarkInnerLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkInnerLayoutHelper.swift; path = Sources/Instructions/Helpers/Internal/CoachMarkInnerLayoutHelper.swift; sourceTree = "<group>"; };
+		0B8EC5CE4A8748D01D2A836DD1484581 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7E60A321BFB880E512C5B9F77825E4 /* CoachMarkLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkLayoutHelper.swift; path = Sources/Instructions/Helpers/Internal/CoachMarkLayoutHelper.swift; sourceTree = "<group>"; };
+		107C233F8C0E2351309E2362443AF352 /* AMPopTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopTip.xcconfig; sourceTree = "<group>"; };
+		11AE2087E32C4B4264ACF1C392B6690B /* CoachMarkSkipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkSkipView.swift; path = Sources/Instructions/Protocols/Public/CoachMarkSkipView.swift; sourceTree = "<group>"; };
 		1274AA985E2F9389995BEBEC11A7614B /* Pods-OpenBank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenBank-acknowledgements.plist"; sourceTree = "<group>"; };
 		1477ED59E2648789C524E3F608C9457C /* RNCryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNCryptor.framework; path = RNCryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		147E8B6D5DE94FC4CEF3CF23DB35371F /* AMPopTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-prefix.pch"; sourceTree = "<group>"; };
+		164E6C058B1E49E19D4D792BFF4DA87D /* EPContactsPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactsPicker.swift; path = Pods/EPContactsPicker.swift; sourceTree = "<group>"; };
 		1660DE6070F03FC7676549E66767DFEC /* Pods-OpenBankUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenBankUITests-resources.sh"; sourceTree = "<group>"; };
-		16CC0C16F273C61307C3A38FC912171E /* EPConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPConstants.swift; path = Pods/EPConstants.swift; sourceTree = "<group>"; };
 		180AB9AEB9046EA50A92213F55B58EC0 /* Instructions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Instructions.framework; path = Instructions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18DD8CBF4C17A4E887EC435E70A9F66E /* CoachMarkViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkViewControllerDelegate.swift; path = Sources/Instructions/Protocols/Internal/CoachMarkViewControllerDelegate.swift; sourceTree = "<group>"; };
-		1F53EFF1F6F79D796BC00FDD166BC6B6 /* EPContactsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-prefix.pch"; sourceTree = "<group>"; };
-		1FCEC5914CFACBDA5C45E9A8705DD536 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "MFCard/Card /Assets.xcassets"; sourceTree = "<group>"; };
-		20A4F6720BBB82B848B650B908962764 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB76347C00B585E37D283C5B611A13F /* CIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImageExtension.swift; path = QRCode/CIImageExtension.swift; sourceTree = "<group>"; };
+		1CFC5D8E1087DF25BD41C7EAF07C205B /* ResourceBundle-MFCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MFCard-Info.plist"; sourceTree = "<group>"; };
+		1EACCAB140BF0BE09766D289E08D84C2 /* MFCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MFCardView.swift; path = "MFCard/Card /MFCardView.swift"; sourceTree = "<group>"; };
+		1F27328288BB1D3132D63AB1B3A480F5 /* CoachMarkBodyDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkBodyDefaultView.swift"; sourceTree = "<group>"; };
+		2008E21011CB86F42B9492092E248A52 /* RNCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RNCryptor.swift; sourceTree = "<group>"; };
+		20A02EF90B714DDB2B4D2C6618C74305 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Sources/Instructions/Supporting Files/Images.xcassets"; sourceTree = "<group>"; };
+		21BF2DBC645A071935BE843EDA115FAB /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = "MFCard/Card /Toast/Toast.swift"; sourceTree = "<group>"; };
 		2256ECC47751F877759C79D181457B3C /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
-		253FB5EDD1A6B008C9B37CFDE9D1AC5C /* EPContactsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPContactsPicker-dummy.m"; sourceTree = "<group>"; };
+		2337ECBF136EDB2488E51806FAD3A77C /* CreditCardValidationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardValidationType.swift; path = "MFCard/Card /CreditCardValidator/CreditCardValidationType.swift"; sourceTree = "<group>"; };
+		23549407F35C17BAD13B1FCD185DE88A /* FlowManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowManager.swift; path = Sources/Instructions/Managers/Public/FlowManager.swift; sourceTree = "<group>"; };
+		237C2D55BDEB4E5D776D988779265227 /* AMPopTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-prefix.pch"; sourceTree = "<group>"; };
+		25D4376EEBE1F307456B4ED95B317C02 /* MFCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFCard.xcconfig; sourceTree = "<group>"; };
+		266ACEDF7C176C2D1B1214F53399633C /* EPContactCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPContactCell.xib; path = Pods/EPContactCell.xib; sourceTree = "<group>"; };
+		26A6A3CCFD378E5D9BDC155E007414F6 /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
 		2788CBA372CC63E67D70D60C1DAEBD9B /* Pods-OpenBank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenBank-frameworks.sh"; sourceTree = "<group>"; };
-		2801E32FF41155C7AA3F264AB63686E8 /* EPContactCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactCell.swift; path = Pods/EPContactCell.swift; sourceTree = "<group>"; };
-		29ACB4BBD44A1BD4AEB80245DB1F40B7 /* OverlaySnapshotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlaySnapshotView.swift; path = Sources/Instructions/Views/OverlaySnapshotView.swift; sourceTree = "<group>"; };
-		29ECB902B29364694F5A17261A83063E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A14898FC1CB1A79089E29C24667D6C4 /* MFCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFCard.h; path = MFCard/MFCard.h; sourceTree = "<group>"; };
+		279089D224C9B59E087F186C194FBC29 /* CoachMarksController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksController.swift; path = Sources/Instructions/Core/Public/CoachMarksController.swift; sourceTree = "<group>"; };
+		29DBB6AF7F8150DE74171D27B5D6EA7C /* UIView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "Sources/Instructions/Helpers/Internal/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
+		2BC528B416490E91AB8CE7F04FC9E3BC /* QRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QRCode.modulemap; sourceTree = "<group>"; };
 		2C4282E57DC40BDB429E019236280030 /* Pods-OpenBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenBank.release.xcconfig"; sourceTree = "<group>"; };
-		2D1A755A6306DFAB803A03345BB5D193 /* MFCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFCard-umbrella.h"; sourceTree = "<group>"; };
 		2D8CDF36DA9F1D801FC5E378F8038365 /* Pods-OpenBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DB3914F984FB0B19C446180CBF5FBEA /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "MFCard/Card /Assets.xcassets"; sourceTree = "<group>"; };
 		2F878C8B17BA3FFE56488B66B07FEC60 /* Pods-OpenBank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenBank-umbrella.h"; sourceTree = "<group>"; };
-		319CADC9589D7E3AF003AAF2686F8772 /* QRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCode.xcconfig; sourceTree = "<group>"; };
-		32E9F5D84FD5741E09D2E6F1E0032374 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C273E58988AE6AB075DD10B6D66EC7 /* AMPopTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPopTip-dummy.m"; sourceTree = "<group>"; };
+		302BF0C67A694DFA466612FC82C56CBD /* AMPopTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPopTip-dummy.m"; sourceTree = "<group>"; };
+		30708E1DCCE81921A22DAF7BA5BB49BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F722CAD9C7496CF02A09198FD837D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3506C625C6B898A67E11D677CC356062 /* Pods-OpenBank-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenBank-dummy.m"; sourceTree = "<group>"; };
-		3527B4230A05070727057496629A9663 /* Instructions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Instructions-dummy.m"; sourceTree = "<group>"; };
-		38A9F4A853E9203609D672F5A0251AA1 /* PopTip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopTip.swift; path = Source/PopTip.swift; sourceTree = "<group>"; };
 		38D663D35C0275F6792F653F91054CDF /* Pods-OpenBankTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenBankTests-resources.sh"; sourceTree = "<group>"; };
-		3A7E81E9F1A2A3364745900F510BDD0E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Sources/Instructions/Supporting Files/Images.xcassets"; sourceTree = "<group>"; };
-		3EA07AE6DE3ECCD5EA5A515346FB0154 /* EPContactsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPContactsPicker.xcconfig; sourceTree = "<group>"; };
-		3FAA97E30BC05140902E8CD8CC90DA27 /* CoachMarkSkipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkSkipView.swift; path = Sources/Instructions/Protocols/Public/CoachMarkSkipView.swift; sourceTree = "<group>"; };
-		3FE7DDB934EF479A44CCB29C4B5C99FF /* Instructions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Instructions.xcconfig; sourceTree = "<group>"; };
-		42A0DC9F3E82864B51FDFA7F2E62F662 /* CIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIColorExtension.swift; path = QRCode/CIColorExtension.swift; sourceTree = "<group>"; };
+		38FBEF3DF017D734F7584337B094CC56 /* TranslucentOverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranslucentOverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/TranslucentOverlayStyleManager.swift; sourceTree = "<group>"; };
+		3C1F6E73B28421BE7F179683434A87E1 /* RNCryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RNCryptor.modulemap; sourceTree = "<group>"; };
+		3CE1E9DFC4D682C95FE51DEDDBC9D9BA /* AMPopTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-umbrella.h"; sourceTree = "<group>"; };
+		424D49DE593EBDCEFCEF4ACBF7B74EA0 /* QRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCode.xcconfig; sourceTree = "<group>"; };
+		42ADDF53330BCDD759032B0B2FBC885F /* CoachMarkPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkPosition.swift; path = Sources/Instructions/Helpers/Internal/Enums/CoachMarkPosition.swift; sourceTree = "<group>"; };
+		43700977BA4492A3F3DE079DC64077E3 /* EPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPExtensions.swift; path = Pods/EPExtensions.swift; sourceTree = "<group>"; };
+		43F830295E8CE4B4501FC258BB63E326 /* CoachMarkBodyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyView.swift; path = Sources/Instructions/Protocols/Public/CoachMarkBodyView.swift; sourceTree = "<group>"; };
+		45786DEE3F6FCF7A618E3F46B2653CE4 /* UIImage+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Bundle.swift"; path = "Sources/Instructions/Helpers/Internal/Extensions/UIImage+Bundle.swift"; sourceTree = "<group>"; };
+		464BFA6E4DC19E9797E07D2F47DEF9A9 /* MFCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MFCard.h; path = MFCard/MFCard.h; sourceTree = "<group>"; };
 		47212987E3A9040FDBED7425D7D0E740 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49C500B728A41BBC8F80A757BEF50B85 /* CoachMarkPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkPosition.swift; path = Sources/Instructions/Helpers/Internal/Enums/CoachMarkPosition.swift; sourceTree = "<group>"; };
+		4865446B67EB553F7A925621A68BDE5F /* InstructionsWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstructionsWindow.swift; path = Sources/Instructions/Views/InstructionsWindow.swift; sourceTree = "<group>"; };
+		4A4433ABE00880F488729264DE7ED34C /* CoachMarkHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkHelper.swift; path = Sources/Instructions/Helpers/Public/CoachMarkHelper.swift; sourceTree = "<group>"; };
+		4AB9F9273DFC6BF606B98642316A26C7 /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = "MFCard/Card /Card.swift"; sourceTree = "<group>"; };
 		4F01BF0CA44ADA1AFF50F9C67CC04826 /* Pods-OpenBank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OpenBank.modulemap"; sourceTree = "<group>"; };
-		5013D15CED33B35E0EEC495BCBD8982E /* CoachMarkArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowView.swift; path = Sources/Instructions/Protocols/Public/CoachMarkArrowView.swift; sourceTree = "<group>"; };
-		51331A6BADBE4C87AC26E244C6CFFEFC /* QRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-prefix.pch"; sourceTree = "<group>"; };
+		50C053604B9C72EC353B5659CA82202D /* SkipViewDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipViewDisplayManager.swift; path = Sources/Instructions/Managers/Internal/SkipViewDisplayManager.swift; sourceTree = "<group>"; };
+		5100E8DB5D720DE3BF92EC30AA17CE56 /* Instructions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Instructions-dummy.m"; sourceTree = "<group>"; };
+		51E530866B99AEBDF1A145F826696F9B /* MFCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MFCard.modulemap; sourceTree = "<group>"; };
+		5240E5B2BAED2DFCC9DE9FFE0887D7B8 /* Instructions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instructions-umbrella.h"; sourceTree = "<group>"; };
+		52FC94D0260B0FCFBC5DFE54FA599D3A /* ResourceBundle-EPContactsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EPContactsPicker-Info.plist"; sourceTree = "<group>"; };
 		553A08F2855369C79C117D91D5AF6483 /* Pods-OpenBankUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenBankUITests-umbrella.h"; sourceTree = "<group>"; };
-		5555B349809D42CD4AE7683975F88BC6 /* MFCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MFCard-dummy.m"; sourceTree = "<group>"; };
-		591A76628AD86EC77952831688559AC3 /* CreditCardValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardValidator.swift; path = "MFCard/Card /CreditCardValidator/CreditCardValidator.swift"; sourceTree = "<group>"; };
-		5A6AC85618983C4E07E716F757F0A5B9 /* MFCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MFCard.modulemap; sourceTree = "<group>"; };
-		5D852F26DFA26BBF3DE2DE041CA6ACE0 /* QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCode-dummy.m"; sourceTree = "<group>"; };
+		567656CA5EC48874B0A3F5608138EF5C /* AMPopTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AMPopTip.modulemap; sourceTree = "<group>"; };
+		59FA9E1A81FBAB2F58764361968EDED9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C60D139A7785707D524E68B23556DB5 /* CoachMarkBodyHighlightArrowDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyHighlightArrowDelegate.swift; path = Sources/Instructions/Protocols/Public/CoachMarkBodyHighlightArrowDelegate.swift; sourceTree = "<group>"; };
 		5E2DD914D1E6FACA9B9122CA45F98F42 /* MFCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MFCard.bundle; path = MFCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		64AB8F0E1D24E89DA9BCAE605EF2683D /* DummyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DummyView.swift; path = Sources/Instructions/Views/DummyView.swift; sourceTree = "<group>"; };
-		673836AC164AF3A73FC385799C9D44E3 /* CoachMarksControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerDelegate.swift; path = Sources/Instructions/Protocols/Public/CoachMarksControllerDelegate.swift; sourceTree = "<group>"; };
+		604721B55B3E75188B751AF1AAF860C8 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		605D9EF127615F03587B56BD63E45F27 /* RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.xcconfig; sourceTree = "<group>"; };
+		68018CB0981242EA9D82AFF32F5BB44C /* PopTip+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Draw.swift"; path = "Source/PopTip+Draw.swift"; sourceTree = "<group>"; };
 		68790720866DCC57285A3FA191A7BCA4 /* Pods-OpenBankUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenBankUITests-dummy.m"; sourceTree = "<group>"; };
-		69C90FB2317BACAF281556851A06759E /* RNCryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RNCryptor.modulemap; sourceTree = "<group>"; };
-		6AA460087903F4C328D29948C3A90134 /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
-		6AFC389878D6E0E515173D4D8D786FB7 /* RNCryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-umbrella.h"; sourceTree = "<group>"; };
-		70E848A9E53C6B1E04CAD8A34EBBFDBB /* InstructionsRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstructionsRootView.swift; path = Sources/Instructions/Views/InstructionsRootView.swift; sourceTree = "<group>"; };
+		6EC67F345C7725DAFFB4EF2865D8DE96 /* CoachMarkViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkViewControllerDelegate.swift; path = Sources/Instructions/Protocols/Internal/CoachMarkViewControllerDelegate.swift; sourceTree = "<group>"; };
+		717C16AAD313596456856B7671A83CA0 /* BlurringOverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurringOverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/BlurringOverlayStyleManager.swift; sourceTree = "<group>"; };
 		7349CFF7EBB7B7861A0F033FFDD1F9FF /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ContactsUI.framework; sourceTree = DEVELOPER_DIR; };
+		74700D270F2BD548DD70CD707A2BE245 /* CoachMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMark.swift; path = Sources/Instructions/Core/Public/CoachMark.swift; sourceTree = "<group>"; };
 		757B876C350C92BD5B1908FD9F010BF1 /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCode.framework; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		780C807EFCDB74522065ED0A32C2D9BB /* CreditCardValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardValidator.swift; path = "MFCard/Card /CreditCardValidator/CreditCardValidator.swift"; sourceTree = "<group>"; };
 		783DFCBF694D27624F04E55D1B91EB6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79678A460FD929BCC3275B804ECC5BB7 /* AMPopTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-umbrella.h"; sourceTree = "<group>"; };
-		7BA5C7F9E7BAAD443C65DA04A47D6479 /* RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.xcconfig; sourceTree = "<group>"; };
-		7E66A9376AA384BC1FF0E16859E02089 /* AMPopTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AMPopTip.modulemap; sourceTree = "<group>"; };
+		790081144F157F9CC5DFFD09BF417C42 /* DummyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DummyView.swift; path = Sources/Instructions/Views/DummyView.swift; sourceTree = "<group>"; };
 		7F523DCBFE48B8DD18BB6BCCEA043136 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8099A7034BAEBBC6739337C8CB035BDB /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = "MFCard/Card /Toast/Toast.swift"; sourceTree = "<group>"; };
-		818C57491FA202E3328984C518469BB4 /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = "MFCard/Card /Card.swift"; sourceTree = "<group>"; };
-		861C969562C205C4AD41123AF62F35B9 /* SkipViewDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipViewDisplayManager.swift; path = Sources/Instructions/Managers/Internal/SkipViewDisplayManager.swift; sourceTree = "<group>"; };
-		86BCA1DFB99A2BE509F04BF38D9E5903 /* CoachMarkLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkLayoutHelper.swift; path = Sources/Instructions/Helpers/Internal/CoachMarkLayoutHelper.swift; sourceTree = "<group>"; };
+		887A257BEF5A025BB28FCF978957A81C /* CoachMarksControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerDelegate.swift; path = Sources/Instructions/Protocols/Public/CoachMarksControllerDelegate.swift; sourceTree = "<group>"; };
+		890E06E255AE0C47CFB86A17E70ABE4F /* RNCryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-umbrella.h"; sourceTree = "<group>"; };
+		8932A4306A5D346BBA1DB91708F42E08 /* MFCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MFCard-dummy.m"; sourceTree = "<group>"; };
+		8D9DD21CDAEBFCF0757841F0EBFB3AB4 /* Instructions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Instructions.modulemap; sourceTree = "<group>"; };
+		8DA75914E1CDA4C644CED59E689085F0 /* EPContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContact.swift; path = Pods/EPContact.swift; sourceTree = "<group>"; };
 		8E2C7E1D323EF542219BED720ACDA860 /* Pods-OpenBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenBank.debug.xcconfig"; sourceTree = "<group>"; };
+		8E5CDC55E225E8B7B214B7023F917DD3 /* EPContactsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-umbrella.h"; sourceTree = "<group>"; };
+		903227D9A95DC409199104F7301CC480 /* PopTip+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Transitions.swift"; path = "Source/PopTip+Transitions.swift"; sourceTree = "<group>"; };
+		90F0DD1D463935F9E9643DB32BAC8ED3 /* EPContactsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EPContactsPicker.modulemap; sourceTree = "<group>"; };
 		918A793D1BE40642736CC772362AF532 /* Pods-OpenBankTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenBankTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		92C79A4DC7FA1CB42843114D297BBD7A /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = QRCode/UIImageViewExtension.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95E19102F078614F24461532105EC0D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98E3D33E8E32CA10B1728C7A4F6EC882 /* FlowManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowManager.swift; path = Sources/Instructions/Managers/Public/FlowManager.swift; sourceTree = "<group>"; };
-		9A8D0CBABE42365AA37EA96F30E5C5B0 /* EPContact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContact.swift; path = Pods/EPContact.swift; sourceTree = "<group>"; };
-		9BD75CFD5CE1595C26472D146B35AAA5 /* EPContactsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-umbrella.h"; sourceTree = "<group>"; };
-		9CB5A9AC62453B36FD6E3541C21BFCE7 /* MFCardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MFCardView.xib; path = "MFCard/Card /MFCardView.xib"; sourceTree = "<group>"; };
-		A10279EE8A640B3452C609BD330507C2 /* CoachMarksController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksController.swift; path = Sources/Instructions/Core/Public/CoachMarksController.swift; sourceTree = "<group>"; };
-		A23FC935F054FE4F0A244755C416134B /* OverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/OverlayStyleManager.swift; sourceTree = "<group>"; };
+		95A322270663453CCD220C7A01B28E28 /* MFCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFCard-umbrella.h"; sourceTree = "<group>"; };
+		984F6D9B5838B5D3E0364CDA2C3B0875 /* CoachMarksController+Proxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoachMarksController+Proxy.swift"; path = "Sources/Instructions/Core/Public/Extensions/CoachMarksController+Proxy.swift"; sourceTree = "<group>"; };
+		9869156F63556A9E0A06CFC399E94EE3 /* OverlaySnapshotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlaySnapshotView.swift; path = Sources/Instructions/Views/OverlaySnapshotView.swift; sourceTree = "<group>"; };
+		98BC28E1FAE1E293F7B83A148F19C4E8 /* EPContactsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPContactsPicker-dummy.m"; sourceTree = "<group>"; };
+		A17FB1D0F121B3C1E6B9C149A2163BE7 /* EPContactCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactCell.swift; path = Pods/EPContactCell.swift; sourceTree = "<group>"; };
+		A2E78CDC7CDC5CFD8CB6C33617C58786 /* LBZSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBZSpinner.swift; path = "MFCard/Card /Helper Class/LBZSpinner.swift"; sourceTree = "<group>"; };
 		A685EB43BB96A28F3BD513AFC95E5CB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A6B517D3339B5B0C19BAC559211245A7 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/QRCode.swift; sourceTree = "<group>"; };
-		AB6B22DBF96F49DC000319641F7D5002 /* MFCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MFCardView.swift; path = "MFCard/Card /MFCardView.swift"; sourceTree = "<group>"; };
-		AD07EC325E9EA67A038425FA753D1D3D /* CoachMarkBodyDefaultViewHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyDefaultViewHelper.swift; path = Sources/Instructions/Helpers/Public/CoachMarkBodyDefaultViewHelper.swift; sourceTree = "<group>"; };
+		A7EAF35A646AEF6672BEB1F5311A38DC /* QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCode-dummy.m"; sourceTree = "<group>"; };
+		A9FF5477054875EA25D44A12707A790C /* CoachMarkArrowOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowOrientation.swift; path = Sources/Instructions/Helpers/Public/Enums/CoachMarkArrowOrientation.swift; sourceTree = "<group>"; };
+		AE30390B1E1F3EB52D3D70D07BA37C67 /* Instructions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instructions.swift; path = Sources/Instructions/Instructions.swift; sourceTree = "<group>"; };
 		AE82A91F2675E52FCF84897C219188C3 /* Pods_OpenBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenBankTests.framework; path = "Pods-OpenBankTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BABA4187220D91DFEE585ADA2A3A54 /* Pods-OpenBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0BDBC3EFA35C36AE83FF15B3CD20883 /* Pods-OpenBankTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenBankTests-umbrella.h"; sourceTree = "<group>"; };
-		B5D9DF365B0182F660FB1F4685BBD472 /* CoachMarkBodyDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkBodyDefaultView.swift"; sourceTree = "<group>"; };
-		B761548805D0F00CA4F2580E07FB33FE /* CIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImageExtension.swift; path = QRCode/CIImageExtension.swift; sourceTree = "<group>"; };
+		B2EF5B8D8292D16939EE2C5DAB466A14 /* InstructionsRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstructionsRootView.swift; path = Sources/Instructions/Views/InstructionsRootView.swift; sourceTree = "<group>"; };
+		B3531C6CF63B9902F682F803B25E6507 /* YandexSpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YandexSpeechKit.framework; sourceTree = "<group>"; };
+		B4E2EABE038B7FC414201AC4C5A93AD2 /* MFCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFCard-prefix.pch"; sourceTree = "<group>"; };
 		B7BB1A17DE0EBCE70346FFE3AA811C42 /* Pods-OpenBank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenBank-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA36D8DD75C7246CA88AB03B838456D6 /* CoachMarkArrowOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowOrientation.swift; path = Sources/Instructions/Helpers/Public/Enums/CoachMarkArrowOrientation.swift; sourceTree = "<group>"; };
-		BB553D5D0731E0BAB1840EA82661A1EF /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		B7C7B3D49226837B6794E9ECADFA3122 /* OverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = Sources/Instructions/Views/OverlayView.swift; sourceTree = "<group>"; };
+		B99933CD6A009D63C3371BB6FDC299CC /* Instructions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Instructions.xcconfig; sourceTree = "<group>"; };
+		B9AF809DF8B70780CB1810199256EFCE /* EPContactsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPContactsPicker-prefix.pch"; sourceTree = "<group>"; };
+		B9CB01E059AD8DBBA09929CD435CFD6A /* OverlayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayManager.swift; path = Sources/Instructions/Managers/Public/OverlayManager.swift; sourceTree = "<group>"; };
+		BBF7A507858BD4C6810885DB9546794B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1F5D95F80B4D49934EC01AD5C2B285 /* MFCardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MFCardView.xib; path = "MFCard/Card /MFCardView.xib"; sourceTree = "<group>"; };
+		BD788EA71438B4B6DC400CF239AD5C3D /* CoachMarksControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerDataSource.swift; path = Sources/Instructions/Protocols/Public/CoachMarksControllerDataSource.swift; sourceTree = "<group>"; };
 		BEB5C33A5B94630BF503021D2D81342C /* Pods-OpenBankUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OpenBankUITests.modulemap"; sourceTree = "<group>"; };
-		BF35780CA2B16213AFFDC90ADE45F8D4 /* PopTip+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Draw.swift"; path = "Source/PopTip+Draw.swift"; sourceTree = "<group>"; };
-		BFBD9C29F856EDF33FD5162EF9C9BC6C /* CoachMarkInnerLayoutHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkInnerLayoutHelper.swift; path = Sources/Instructions/Helpers/Internal/CoachMarkInnerLayoutHelper.swift; sourceTree = "<group>"; };
-		C3915C2AAE3C17361D05AE737811B90C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4266E2B0E646320974AF45505B3617C /* CoachMarkBodyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyView.swift; path = Sources/Instructions/Protocols/Public/CoachMarkBodyView.swift; sourceTree = "<group>"; };
+		C4E8A399D0F4FC067695F3BF12A51C7F /* OverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/OverlayStyleManager.swift; sourceTree = "<group>"; };
 		C5611E0236B676AC7E8D544E7019A13D /* AMPopTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMPopTip.framework; path = AMPopTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AD396EA56D7A24528B22F522240517 /* Pods-OpenBankUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenBankUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C71F3661F4EABFA8FFD3F99EF44960BE /* TranslucentOverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranslucentOverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/TranslucentOverlayStyleManager.swift; sourceTree = "<group>"; };
-		C725F95B140553B6C39B7FF224589757 /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
 		C9C7F78B15150FC0255451F2B9F5E642 /* Pods-OpenBankTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenBankTests-frameworks.sh"; sourceTree = "<group>"; };
-		CA7C41FEDFDC227CC365595ADDB4F3BA /* CreditCardValidationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCardValidationType.swift; path = "MFCard/Card /CreditCardValidator/CreditCardValidationType.swift"; sourceTree = "<group>"; };
+		CD1F7502F70641E6E8A341C15C62D9B8 /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
+		CDBF970FC2E42D02DC8BBC475CEC5A7E /* CoachMarkDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkDisplayManager.swift; path = Sources/Instructions/Managers/Internal/CoachMarkDisplayManager.swift; sourceTree = "<group>"; };
+		CDCC4CFD05FEF3F7D2F00952A1BB65D9 /* CoachMarkSkipDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkSkipDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkSkipDefaultView.swift"; sourceTree = "<group>"; };
 		CED120A398D6D51AEF4DFF68E49F91D7 /* EPContactsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EPContactsPicker.framework; path = EPContactsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D10554136576979AF477F4B0DA50A53C /* CoachMarkBodyHighlightArrowDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyHighlightArrowDelegate.swift; path = Sources/Instructions/Protocols/Public/CoachMarkBodyHighlightArrowDelegate.swift; sourceTree = "<group>"; };
+		D059299932B9B8D42E882052F3256E07 /* CoachMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkView.swift; path = Sources/Instructions/Views/CoachMarkView.swift; sourceTree = "<group>"; };
+		D168537BE867190582CAC8482C39C3EC /* CoachMarkArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowView.swift; path = Sources/Instructions/Protocols/Public/CoachMarkArrowView.swift; sourceTree = "<group>"; };
+		D1CC8EECF9800BD89B7ACD413F532BC7 /* CoachMarksViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksViewController.swift; path = Sources/Instructions/Core/Internal/CoachMarksViewController.swift; sourceTree = "<group>"; };
+		D1DAFDAA292D679E5EEEE601514E2B67 /* CoachMarkArrowDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkArrowDefaultView.swift"; sourceTree = "<group>"; };
 		D27289C9AD39F8184D69A498D425BA8F /* Pods-OpenBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenBankUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D30A2A2AA5B6166546F8CD1F64E1230A /* OverlayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayManager.swift; path = Sources/Instructions/Managers/Public/OverlayManager.swift; sourceTree = "<group>"; };
-		D68E0EB417DD8C328A5A673276D8F28F /* OverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = Sources/Instructions/Views/OverlayView.swift; sourceTree = "<group>"; };
-		D7B1A3BA6D51E85AECF60413ABB80475 /* QRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QRCode.modulemap; sourceTree = "<group>"; };
-		D8DD2D80BFEEE4612EB1D9B59FD37C2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC57B1828A92AE2A75B779CAD0588DC8 /* ResourceBundle-EPContactsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EPContactsPicker-Info.plist"; sourceTree = "<group>"; };
-		DCB7CC430FBA1999911A92E7B2CD5AB4 /* Instructions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instructions-prefix.pch"; sourceTree = "<group>"; };
+		D2C0FFBE1FD3F5CEEAF7D8D47F2DE08E /* EPContactsPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPContactsPicker.xcconfig; sourceTree = "<group>"; };
+		D2C2710EF77F80DD385996F8166B9352 /* MaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskView.swift; path = Sources/Instructions/Views/MaskView.swift; sourceTree = "<group>"; };
+		D471B50B082439989EE65E66C940BBF6 /* PopTip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopTip.swift; path = Source/PopTip.swift; sourceTree = "<group>"; };
+		D6DD20862471F980899AC7E074A9C326 /* EPConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPConstants.swift; path = Pods/EPConstants.swift; sourceTree = "<group>"; };
+		D7C1634F6EAC531BA4C9AC4EA6FDAC9E /* CoachMarkBodyDefaultViewHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkBodyDefaultViewHelper.swift; path = Sources/Instructions/Helpers/Public/CoachMarkBodyDefaultViewHelper.swift; sourceTree = "<group>"; };
 		DCD09F3F025B215FDC61FF8C2D02560D /* Pods_OpenBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenBank.framework; path = "Pods-OpenBank.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD02A637FD424E985AB76B8CC13C0E10 /* CoachMarkSkipDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkSkipDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkSkipDefaultView.swift"; sourceTree = "<group>"; };
-		DD0F4F513F149A0522EBA9B7613ED928 /* PopTip+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Transitions.swift"; path = "Source/PopTip+Transitions.swift"; sourceTree = "<group>"; };
 		DD160B34F34D64C00B6B81FFAA61EDA2 /* Pods-OpenBankTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenBankTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE6C7B494F00518AABFB0AF50842E24B /* CoachMarksControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksControllerDataSource.swift; path = Sources/Instructions/Protocols/Public/CoachMarksControllerDataSource.swift; sourceTree = "<group>"; };
 		E04AE11AB58BD86CD52311EA81BD8EAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E283951C74E1752EB03BE3A4625AD599 /* Pods-OpenBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenBankTests.release.xcconfig"; sourceTree = "<group>"; };
-		E40FBA4F22B733561EE1640D9D19E591 /* CoachMarksController+Proxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoachMarksController+Proxy.swift"; path = "Sources/Instructions/Core/Public/Extensions/CoachMarksController+Proxy.swift"; sourceTree = "<group>"; };
 		E4FC61F6FA1982751D37C04F080F9CD3 /* EPContactsPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPContactsPicker.bundle; path = EPContactsPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E53342ECC1DF900A883AC0A4052441C8 /* BlurringOverlayStyleManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurringOverlayStyleManager.swift; path = Sources/Instructions/Managers/Internal/OverlayStyleManager/BlurringOverlayStyleManager.swift; sourceTree = "<group>"; };
-		E8DA399D2531D00AD4047B9422B3D06E /* Instructions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instructions-umbrella.h"; sourceTree = "<group>"; };
-		E90545293F078781E2BC1AD2F2C812A3 /* CoachMarksViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarksViewController.swift; path = Sources/Instructions/Core/Internal/CoachMarksViewController.swift; sourceTree = "<group>"; };
-		EAE2D04A29B894210216DA2435969FB7 /* MFCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MFCard-prefix.pch"; sourceTree = "<group>"; };
-		EB8376C474D49E00DCB25A28F7956077 /* Instructions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instructions.swift; path = Sources/Instructions/Instructions.swift; sourceTree = "<group>"; };
-		EBB3AB9A980F36E75B3AA1C9F86D3229 /* AMPopTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopTip.xcconfig; sourceTree = "<group>"; };
-		EDF1BC01033C18497658305BC26EB671 /* MaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskView.swift; path = Sources/Instructions/Views/MaskView.swift; sourceTree = "<group>"; };
-		F10F932600B4A0438B74DC830633056E /* CoachMarkHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkHelper.swift; path = Sources/Instructions/Helpers/Public/CoachMarkHelper.swift; sourceTree = "<group>"; };
-		F1B41E65B54BCD6791AC1FD6FD9E8573 /* CoachMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMark.swift; path = Sources/Instructions/Core/Public/CoachMark.swift; sourceTree = "<group>"; };
-		F3564A4504B36B88636D20E508853B74 /* ResourceBundle-MFCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MFCard-Info.plist"; sourceTree = "<group>"; };
+		E6C93289C2D34F111299399020EC9AA9 /* YandexSpeechKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YandexSpeechKit.bundle; path = YandexSpeechKit.framework/Versions/A/Resources/YandexSpeechKit.bundle; sourceTree = "<group>"; };
+		EBC7DFF066EAC8027251BEA2A934470C /* CIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIColorExtension.swift; path = QRCode/CIColorExtension.swift; sourceTree = "<group>"; };
+		EC26DB2F0C4A99742F73F633F23F2184 /* Instructions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Instructions-prefix.pch"; sourceTree = "<group>"; };
+		EEBDD9873395DB3FF7FCEA7AC4F48486 /* QRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCode.swift; path = QRCode/QRCode.swift; sourceTree = "<group>"; };
 		F3FEA1EB0CB97C268F3262BF505A1C51 /* Pods-OpenBank-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenBank-resources.sh"; sourceTree = "<group>"; };
-		F4F0494C22B4DB6DCB7536B88BC11B74 /* QRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-umbrella.h"; sourceTree = "<group>"; };
-		F57162C67BE23F4B77DB5C8ADBA898DE /* MFCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MFCard.xcconfig; sourceTree = "<group>"; };
-		F88D1FE2A814D5127EFBD9506015CBF4 /* LBZSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBZSpinner.swift; path = "MFCard/Card /Helper Class/LBZSpinner.swift"; sourceTree = "<group>"; };
-		F97D083376B31DD4C05B6861A9477C49 /* CoachMarkArrowDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachMarkArrowDefaultView.swift; path = "Sources/Instructions/Extra/Default Views/CoachMarkArrowDefaultView.swift"; sourceTree = "<group>"; };
-		F98257092325A8C37862B914CF0CB1D0 /* EPContactCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPContactCell.xib; path = Pods/EPContactCell.xib; sourceTree = "<group>"; };
-		FA5E7A09C0CDFA43F68AC799709A0354 /* EPContactsPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPContactsPicker.swift; path = Pods/EPContactsPicker.swift; sourceTree = "<group>"; };
-		FA73FA13BD7D23E1021E59BDCF50E994 /* RNCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RNCryptor.swift; sourceTree = "<group>"; };
+		FA9113C45F13458020FA69A4C8C62F75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB66C7D46CCE7234D98483CD720E698 /* Pods_OpenBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenBankUITests.framework; path = "Pods-OpenBankUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2AD73A6AB845A7307494275D941659 /* InstructionsWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstructionsWindow.swift; path = Sources/Instructions/Views/InstructionsWindow.swift; sourceTree = "<group>"; };
-		FD08B552C12B053214C1FD9CA4FEE930 /* EPContactsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EPContactsPicker.modulemap; sourceTree = "<group>"; };
-		FE263D063645C8272E712C1CD3FFCEE8 /* EPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPExtensions.swift; path = Pods/EPExtensions.swift; sourceTree = "<group>"; };
+		FCFA8A326D15628049818EE0614289C8 /* QRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCode-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,63 +407,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D193F43BA443AA9395E98A33F45C21E /* AMPopTip */ = {
+		02FC3F3D43C1070C8CA8975AC6EADEA8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38A9F4A853E9203609D672F5A0251AA1 /* PopTip.swift */,
-				BF35780CA2B16213AFFDC90ADE45F8D4 /* PopTip+Draw.swift */,
-				DD0F4F513F149A0522EBA9B7613ED928 /* PopTip+Transitions.swift */,
-				15B7598C76E7B0E0AB3398F8CB9D99B8 /* Support Files */,
+				070CC5A227D56B9821E506B34A097346 /* AMPopTip */,
+				CAAC1A0A90660646CB6BF25B6DE602CF /* EPContactsPicker */,
+				1EE9863CDF6C0CFD5CF045F07E2B7E82 /* Instructions */,
+				E88A3F490DDD495DC9D08B17A2C58848 /* MFCard */,
+				0B973B3BE779009C278A6F91F17902D6 /* QRCode */,
+				B5A04733A47CF7EDDB563A89642687EF /* RNCryptor */,
+				A6B484F59330583286FC88716B6BE292 /* YandexSpeechKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		070CC5A227D56B9821E506B34A097346 /* AMPopTip */ = {
+			isa = PBXGroup;
+			children = (
+				D471B50B082439989EE65E66C940BBF6 /* PopTip.swift */,
+				68018CB0981242EA9D82AFF32F5BB44C /* PopTip+Draw.swift */,
+				903227D9A95DC409199104F7301CC480 /* PopTip+Transitions.swift */,
+				11417D3BA3EF019509D96883D2AA47DE /* Support Files */,
 			);
 			name = AMPopTip;
 			path = AMPopTip;
 			sourceTree = "<group>";
 		};
-		0DA7F5E0A4FF0742234DB3C1AD9763A2 /* Instructions */ = {
+		0B973B3BE779009C278A6F91F17902D6 /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
-				E53342ECC1DF900A883AC0A4052441C8 /* BlurringOverlayStyleManager.swift */,
-				F1B41E65B54BCD6791AC1FD6FD9E8573 /* CoachMark.swift */,
-				F97D083376B31DD4C05B6861A9477C49 /* CoachMarkArrowDefaultView.swift */,
-				BA36D8DD75C7246CA88AB03B838456D6 /* CoachMarkArrowOrientation.swift */,
-				5013D15CED33B35E0EEC495BCBD8982E /* CoachMarkArrowView.swift */,
-				B5D9DF365B0182F660FB1F4685BBD472 /* CoachMarkBodyDefaultView.swift */,
-				AD07EC325E9EA67A038425FA753D1D3D /* CoachMarkBodyDefaultViewHelper.swift */,
-				D10554136576979AF477F4B0DA50A53C /* CoachMarkBodyHighlightArrowDelegate.swift */,
-				C4266E2B0E646320974AF45505B3617C /* CoachMarkBodyView.swift */,
-				08F61332F77EE0FF4DBC20E476087DAC /* CoachMarkDisplayManager.swift */,
-				F10F932600B4A0438B74DC830633056E /* CoachMarkHelper.swift */,
-				BFBD9C29F856EDF33FD5162EF9C9BC6C /* CoachMarkInnerLayoutHelper.swift */,
-				86BCA1DFB99A2BE509F04BF38D9E5903 /* CoachMarkLayoutHelper.swift */,
-				49C500B728A41BBC8F80A757BEF50B85 /* CoachMarkPosition.swift */,
-				A10279EE8A640B3452C609BD330507C2 /* CoachMarksController.swift */,
-				E40FBA4F22B733561EE1640D9D19E591 /* CoachMarksController+Proxy.swift */,
-				DE6C7B494F00518AABFB0AF50842E24B /* CoachMarksControllerDataSource.swift */,
-				673836AC164AF3A73FC385799C9D44E3 /* CoachMarksControllerDelegate.swift */,
-				DD02A637FD424E985AB76B8CC13C0E10 /* CoachMarkSkipDefaultView.swift */,
-				3FAA97E30BC05140902E8CD8CC90DA27 /* CoachMarkSkipView.swift */,
-				E90545293F078781E2BC1AD2F2C812A3 /* CoachMarksViewController.swift */,
-				0E17E85C5AFA32362C941D63A610F2D6 /* CoachMarkView.swift */,
-				18DD8CBF4C17A4E887EC435E70A9F66E /* CoachMarkViewControllerDelegate.swift */,
-				64AB8F0E1D24E89DA9BCAE605EF2683D /* DummyView.swift */,
-				98E3D33E8E32CA10B1728C7A4F6EC882 /* FlowManager.swift */,
-				EB8376C474D49E00DCB25A28F7956077 /* Instructions.swift */,
-				70E848A9E53C6B1E04CAD8A34EBBFDBB /* InstructionsRootView.swift */,
-				FB2AD73A6AB845A7307494275D941659 /* InstructionsWindow.swift */,
-				EDF1BC01033C18497658305BC26EB671 /* MaskView.swift */,
-				D30A2A2AA5B6166546F8CD1F64E1230A /* OverlayManager.swift */,
-				29ACB4BBD44A1BD4AEB80245DB1F40B7 /* OverlaySnapshotView.swift */,
-				A23FC935F054FE4F0A244755C416134B /* OverlayStyleManager.swift */,
-				D68E0EB417DD8C328A5A673276D8F28F /* OverlayView.swift */,
-				861C969562C205C4AD41123AF62F35B9 /* SkipViewDisplayManager.swift */,
-				C71F3661F4EABFA8FFD3F99EF44960BE /* TranslucentOverlayStyleManager.swift */,
-				05A4E1F93BC55AD1D924073D17DAB6D4 /* UIImage+Bundle.swift */,
-				02107DAABD3D7F0BF8732E22C068BDC3 /* UIView+Layout.swift */,
-				4DE9A904486A9964BA35B01992D57EA3 /* Resources */,
-				942E5FCDC39A91A9E1DBD057FDA3B383 /* Support Files */,
+				EBC7DFF066EAC8027251BEA2A934470C /* CIColorExtension.swift */,
+				1AB76347C00B585E37D283C5B611A13F /* CIImageExtension.swift */,
+				EEBDD9873395DB3FF7FCEA7AC4F48486 /* QRCode.swift */,
+				0118AA6E2127A91CDD16317578B17D5B /* UIImageViewExtension.swift */,
+				60DBACE4D236B9518C853AE5C394472F /* Support Files */,
 			);
-			name = Instructions;
-			path = Instructions;
+			name = QRCode;
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		11417D3BA3EF019509D96883D2AA47DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				567656CA5EC48874B0A3F5608138EF5C /* AMPopTip.modulemap */,
+				107C233F8C0E2351309E2362443AF352 /* AMPopTip.xcconfig */,
+				302BF0C67A694DFA466612FC82C56CBD /* AMPopTip-dummy.m */,
+				237C2D55BDEB4E5D776D988779265227 /* AMPopTip-prefix.pch */,
+				3CE1E9DFC4D682C95FE51DEDDBC9D9BA /* AMPopTip-umbrella.h */,
+				0B8EC5CE4A8748D01D2A836DD1484581 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMPopTip";
 			sourceTree = "<group>";
 		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
@@ -472,27 +468,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		15B7598C76E7B0E0AB3398F8CB9D99B8 /* Support Files */ = {
+		1EE9863CDF6C0CFD5CF045F07E2B7E82 /* Instructions */ = {
 			isa = PBXGroup;
 			children = (
-				7E66A9376AA384BC1FF0E16859E02089 /* AMPopTip.modulemap */,
-				EBB3AB9A980F36E75B3AA1C9F86D3229 /* AMPopTip.xcconfig */,
-				33C273E58988AE6AB075DD10B6D66EC7 /* AMPopTip-dummy.m */,
-				147E8B6D5DE94FC4CEF3CF23DB35371F /* AMPopTip-prefix.pch */,
-				79678A460FD929BCC3275B804ECC5BB7 /* AMPopTip-umbrella.h */,
-				D8DD2D80BFEEE4612EB1D9B59FD37C2B /* Info.plist */,
+				717C16AAD313596456856B7671A83CA0 /* BlurringOverlayStyleManager.swift */,
+				74700D270F2BD548DD70CD707A2BE245 /* CoachMark.swift */,
+				D1DAFDAA292D679E5EEEE601514E2B67 /* CoachMarkArrowDefaultView.swift */,
+				A9FF5477054875EA25D44A12707A790C /* CoachMarkArrowOrientation.swift */,
+				D168537BE867190582CAC8482C39C3EC /* CoachMarkArrowView.swift */,
+				1F27328288BB1D3132D63AB1B3A480F5 /* CoachMarkBodyDefaultView.swift */,
+				D7C1634F6EAC531BA4C9AC4EA6FDAC9E /* CoachMarkBodyDefaultViewHelper.swift */,
+				5C60D139A7785707D524E68B23556DB5 /* CoachMarkBodyHighlightArrowDelegate.swift */,
+				43F830295E8CE4B4501FC258BB63E326 /* CoachMarkBodyView.swift */,
+				CDBF970FC2E42D02DC8BBC475CEC5A7E /* CoachMarkDisplayManager.swift */,
+				4A4433ABE00880F488729264DE7ED34C /* CoachMarkHelper.swift */,
+				09299914E922489FECC1866E2DA047B7 /* CoachMarkInnerLayoutHelper.swift */,
+				0E7E60A321BFB880E512C5B9F77825E4 /* CoachMarkLayoutHelper.swift */,
+				42ADDF53330BCDD759032B0B2FBC885F /* CoachMarkPosition.swift */,
+				279089D224C9B59E087F186C194FBC29 /* CoachMarksController.swift */,
+				984F6D9B5838B5D3E0364CDA2C3B0875 /* CoachMarksController+Proxy.swift */,
+				BD788EA71438B4B6DC400CF239AD5C3D /* CoachMarksControllerDataSource.swift */,
+				887A257BEF5A025BB28FCF978957A81C /* CoachMarksControllerDelegate.swift */,
+				CDCC4CFD05FEF3F7D2F00952A1BB65D9 /* CoachMarkSkipDefaultView.swift */,
+				11AE2087E32C4B4264ACF1C392B6690B /* CoachMarkSkipView.swift */,
+				D1CC8EECF9800BD89B7ACD413F532BC7 /* CoachMarksViewController.swift */,
+				D059299932B9B8D42E882052F3256E07 /* CoachMarkView.swift */,
+				6EC67F345C7725DAFFB4EF2865D8DE96 /* CoachMarkViewControllerDelegate.swift */,
+				790081144F157F9CC5DFFD09BF417C42 /* DummyView.swift */,
+				23549407F35C17BAD13B1FCD185DE88A /* FlowManager.swift */,
+				AE30390B1E1F3EB52D3D70D07BA37C67 /* Instructions.swift */,
+				B2EF5B8D8292D16939EE2C5DAB466A14 /* InstructionsRootView.swift */,
+				4865446B67EB553F7A925621A68BDE5F /* InstructionsWindow.swift */,
+				D2C2710EF77F80DD385996F8166B9352 /* MaskView.swift */,
+				B9CB01E059AD8DBBA09929CD435CFD6A /* OverlayManager.swift */,
+				9869156F63556A9E0A06CFC399E94EE3 /* OverlaySnapshotView.swift */,
+				C4E8A399D0F4FC067695F3BF12A51C7F /* OverlayStyleManager.swift */,
+				B7C7B3D49226837B6794E9ECADFA3122 /* OverlayView.swift */,
+				50C053604B9C72EC353B5659CA82202D /* SkipViewDisplayManager.swift */,
+				38FBEF3DF017D734F7584337B094CC56 /* TranslucentOverlayStyleManager.swift */,
+				45786DEE3F6FCF7A618E3F46B2653CE4 /* UIImage+Bundle.swift */,
+				29DBB6AF7F8150DE74171D27B5D6EA7C /* UIView+Layout.swift */,
+				5A49065F9EE2E9F28CCDEDCA76B7B443 /* Resources */,
+				CFC231B68E80CEDFB1D7F8359CA670C1 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AMPopTip";
-			sourceTree = "<group>";
-		};
-		28CC51AB31BF81EA1D2F0A801D55E543 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1FCEC5914CFACBDA5C45E9A8705DD536 /* Assets.xcassets */,
-				9CB5A9AC62453B36FD6E3541C21BFCE7 /* MFCardView.xib */,
-			);
-			name = Resources;
+			name = Instructions;
+			path = Instructions;
 			sourceTree = "<group>";
 		};
 		314119CBCFC1E25AD367A32E81BB1692 /* Pods-OpenBank */ = {
@@ -523,70 +543,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3699E35C33D8A0D01BE3AE833206F1CF /* QRCode */ = {
+		5A49065F9EE2E9F28CCDEDCA76B7B443 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42A0DC9F3E82864B51FDFA7F2E62F662 /* CIColorExtension.swift */,
-				B761548805D0F00CA4F2580E07FB33FE /* CIImageExtension.swift */,
-				A6B517D3339B5B0C19BAC559211245A7 /* QRCode.swift */,
-				92C79A4DC7FA1CB42843114D297BBD7A /* UIImageViewExtension.swift */,
-				84A142D145209F05F9F1D1D789015354 /* Support Files */,
-			);
-			name = QRCode;
-			path = QRCode;
-			sourceTree = "<group>";
-		};
-		3F50BEBF637A650A1321AF9CC73E7DAE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FD08B552C12B053214C1FD9CA4FEE930 /* EPContactsPicker.modulemap */,
-				3EA07AE6DE3ECCD5EA5A515346FB0154 /* EPContactsPicker.xcconfig */,
-				253FB5EDD1A6B008C9B37CFDE9D1AC5C /* EPContactsPicker-dummy.m */,
-				1F53EFF1F6F79D796BC00FDD166BC6B6 /* EPContactsPicker-prefix.pch */,
-				9BD75CFD5CE1595C26472D146B35AAA5 /* EPContactsPicker-umbrella.h */,
-				C3915C2AAE3C17361D05AE737811B90C /* Info.plist */,
-				DC57B1828A92AE2A75B779CAD0588DC8 /* ResourceBundle-EPContactsPicker-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EPContactsPicker";
-			sourceTree = "<group>";
-		};
-		47E1781EC528E149AA52B743A7A20193 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				32E9F5D84FD5741E09D2E6F1E0032374 /* Info.plist */,
-				5A6AC85618983C4E07E716F757F0A5B9 /* MFCard.modulemap */,
-				F57162C67BE23F4B77DB5C8ADBA898DE /* MFCard.xcconfig */,
-				5555B349809D42CD4AE7683975F88BC6 /* MFCard-dummy.m */,
-				EAE2D04A29B894210216DA2435969FB7 /* MFCard-prefix.pch */,
-				2D1A755A6306DFAB803A03345BB5D193 /* MFCard-umbrella.h */,
-				F3564A4504B36B88636D20E508853B74 /* ResourceBundle-MFCard-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MFCard";
-			sourceTree = "<group>";
-		};
-		4AF95102ADD6DD19F3111B98C4209607 /* EPContactsPicker */ = {
-			isa = PBXGroup;
-			children = (
-				16CC0C16F273C61307C3A38FC912171E /* EPConstants.swift */,
-				9A8D0CBABE42365AA37EA96F30E5C5B0 /* EPContact.swift */,
-				2801E32FF41155C7AA3F264AB63686E8 /* EPContactCell.swift */,
-				FA5E7A09C0CDFA43F68AC799709A0354 /* EPContactsPicker.swift */,
-				FE263D063645C8272E712C1CD3FFCEE8 /* EPExtensions.swift */,
-				B6267A76EC72CE071931E864E76AE55E /* Resources */,
-				3F50BEBF637A650A1321AF9CC73E7DAE /* Support Files */,
-			);
-			name = EPContactsPicker;
-			path = EPContactsPicker;
-			sourceTree = "<group>";
-		};
-		4DE9A904486A9964BA35B01992D57EA3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3A7E81E9F1A2A3364745900F510BDD0E /* Images.xcassets */,
+				20A02EF90B714DDB2B4D2C6618C74305 /* Images.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		60DBACE4D236B9518C853AE5C394472F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30708E1DCCE81921A22DAF7BA5BB49BD /* Info.plist */,
+				2BC528B416490E91AB8CE7F04FC9E3BC /* QRCode.modulemap */,
+				424D49DE593EBDCEFCEF4ACBF7B74EA0 /* QRCode.xcconfig */,
+				A7EAF35A646AEF6672BEB1F5311A38DC /* QRCode-dummy.m */,
+				086E07BFC8DC555E2BC8E45E74768791 /* QRCode-prefix.pch */,
+				FCFA8A326D15628049818EE0614289C8 /* QRCode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCode";
 			sourceTree = "<group>";
 		};
 		615E21F7AAA6AE5CEB6FA8C1BE69A9CD /* iOS */ = {
@@ -598,6 +574,20 @@
 				A685EB43BB96A28F3BD513AFC95E5CB1 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C21377EABB2D5D46C19539F8381B952 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBF7A507858BD4C6810885DB9546794B /* Info.plist */,
+				3C1F6E73B28421BE7F179683434A87E1 /* RNCryptor.modulemap */,
+				605D9EF127615F03587B56BD63E45F27 /* RNCryptor.xcconfig */,
+				26A6A3CCFD378E5D9BDC155E007414F6 /* RNCryptor-dummy.m */,
+				CD1F7502F70641E6E8A341C15C62D9B8 /* RNCryptor-prefix.pch */,
+				890E06E255AE0C47CFB86A17E70ABE4F /* RNCryptor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor";
 			sourceTree = "<group>";
 		};
 		71D404515D05EE125177B81616007A05 /* Pods-OpenBankUITests */ = {
@@ -641,101 +631,63 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				C701F863026C2DCF746099F1B0A66CA1 /* Pods */,
+				02FC3F3D43C1070C8CA8975AC6EADEA8 /* Pods */,
 				CC9B7D8CDBA75C169C899C6DBF5AA0F7 /* Products */,
 				3611B561B2DCD99DDB031A0ED26D587D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		84A142D145209F05F9F1D1D789015354 /* Support Files */ = {
+		84ADA87CBF95B71AA04B182AA9F8E5A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				95E19102F078614F24461532105EC0D1 /* Info.plist */,
-				D7B1A3BA6D51E85AECF60413ABB80475 /* QRCode.modulemap */,
-				319CADC9589D7E3AF003AAF2686F8772 /* QRCode.xcconfig */,
-				5D852F26DFA26BBF3DE2DE041CA6ACE0 /* QRCode-dummy.m */,
-				51331A6BADBE4C87AC26E244C6CFFEFC /* QRCode-prefix.pch */,
-				F4F0494C22B4DB6DCB7536B88BC11B74 /* QRCode-umbrella.h */,
+				E6C93289C2D34F111299399020EC9AA9 /* YandexSpeechKit.bundle */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/QRCode";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		85FFC93E9CCE9405923FB645DDC5E77D /* MFCard */ = {
+		A6B484F59330583286FC88716B6BE292 /* YandexSpeechKit */ = {
 			isa = PBXGroup;
 			children = (
-				818C57491FA202E3328984C518469BB4 /* Card.swift */,
-				CA7C41FEDFDC227CC365595ADDB4F3BA /* CreditCardValidationType.swift */,
-				591A76628AD86EC77952831688559AC3 /* CreditCardValidator.swift */,
-				F88D1FE2A814D5127EFBD9506015CBF4 /* LBZSpinner.swift */,
-				2A14898FC1CB1A79089E29C24667D6C4 /* MFCard.h */,
-				AB6B22DBF96F49DC000319641F7D5002 /* MFCardView.swift */,
-				8099A7034BAEBBC6739337C8CB035BDB /* Toast.swift */,
-				28CC51AB31BF81EA1D2F0A801D55E543 /* Resources */,
-				47E1781EC528E149AA52B743A7A20193 /* Support Files */,
+				E3F1451FEBD2F6F706D208B303CE0E98 /* Frameworks */,
+				84ADA87CBF95B71AA04B182AA9F8E5A1 /* Resources */,
 			);
-			name = MFCard;
-			path = MFCard;
+			name = YandexSpeechKit;
+			path = YandexSpeechKit;
 			sourceTree = "<group>";
 		};
-		89203A8E2AC45BC1B88991D118CDC726 /* Support Files */ = {
+		B5A04733A47CF7EDDB563A89642687EF /* RNCryptor */ = {
 			isa = PBXGroup;
 			children = (
-				20A4F6720BBB82B848B650B908962764 /* Info.plist */,
-				69C90FB2317BACAF281556851A06759E /* RNCryptor.modulemap */,
-				7BA5C7F9E7BAAD443C65DA04A47D6479 /* RNCryptor.xcconfig */,
-				6AA460087903F4C328D29948C3A90134 /* RNCryptor-dummy.m */,
-				C725F95B140553B6C39B7FF224589757 /* RNCryptor-prefix.pch */,
-				6AFC389878D6E0E515173D4D8D786FB7 /* RNCryptor-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RNCryptor";
-			sourceTree = "<group>";
-		};
-		942E5FCDC39A91A9E1DBD057FDA3B383 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				29ECB902B29364694F5A17261A83063E /* Info.plist */,
-				05A7729050E5558A9DA4E05C55E1C7EE /* Instructions.modulemap */,
-				3FE7DDB934EF479A44CCB29C4B5C99FF /* Instructions.xcconfig */,
-				3527B4230A05070727057496629A9663 /* Instructions-dummy.m */,
-				DCB7CC430FBA1999911A92E7B2CD5AB4 /* Instructions-prefix.pch */,
-				E8DA399D2531D00AD4047B9422B3D06E /* Instructions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Instructions";
-			sourceTree = "<group>";
-		};
-		95EFEF523CAD395CFC56ECF28789785B /* RNCryptor */ = {
-			isa = PBXGroup;
-			children = (
-				BB553D5D0731E0BAB1840EA82661A1EF /* RNCryptor.h */,
-				FA73FA13BD7D23E1021E59BDCF50E994 /* RNCryptor.swift */,
-				89203A8E2AC45BC1B88991D118CDC726 /* Support Files */,
+				604721B55B3E75188B751AF1AAF860C8 /* RNCryptor.h */,
+				2008E21011CB86F42B9492092E248A52 /* RNCryptor.swift */,
+				6C21377EABB2D5D46C19539F8381B952 /* Support Files */,
 			);
 			name = RNCryptor;
 			path = RNCryptor;
 			sourceTree = "<group>";
 		};
-		B6267A76EC72CE071931E864E76AE55E /* Resources */ = {
+		CAAC1A0A90660646CB6BF25B6DE602CF /* EPContactsPicker */ = {
 			isa = PBXGroup;
 			children = (
-				F98257092325A8C37862B914CF0CB1D0 /* EPContactCell.xib */,
+				D6DD20862471F980899AC7E074A9C326 /* EPConstants.swift */,
+				8DA75914E1CDA4C644CED59E689085F0 /* EPContact.swift */,
+				A17FB1D0F121B3C1E6B9C149A2163BE7 /* EPContactCell.swift */,
+				164E6C058B1E49E19D4D792BFF4DA87D /* EPContactsPicker.swift */,
+				43700977BA4492A3F3DE079DC64077E3 /* EPExtensions.swift */,
+				F3F8AED87CE4C158575B8C103CF1BE4B /* Resources */,
+				E417698DBD5437077907D2A8E9139DA5 /* Support Files */,
 			);
-			name = Resources;
+			name = EPContactsPicker;
+			path = EPContactsPicker;
 			sourceTree = "<group>";
 		};
-		C701F863026C2DCF746099F1B0A66CA1 /* Pods */ = {
+		CBF641EBB0394647F169C76A7CC7E83C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0D193F43BA443AA9395E98A33F45C21E /* AMPopTip */,
-				4AF95102ADD6DD19F3111B98C4209607 /* EPContactsPicker */,
-				0DA7F5E0A4FF0742234DB3C1AD9763A2 /* Instructions */,
-				85FFC93E9CCE9405923FB645DDC5E77D /* MFCard */,
-				3699E35C33D8A0D01BE3AE833206F1CF /* QRCode */,
-				95EFEF523CAD395CFC56ECF28789785B /* RNCryptor */,
+				2DB3914F984FB0B19C446180CBF5FBEA /* Assets.xcassets */,
+				BC1F5D95F80B4D49934EC01AD5C2B285 /* MFCardView.xib */,
 			);
-			name = Pods;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CC9B7D8CDBA75C169C899C6DBF5AA0F7 /* Products */ = {
@@ -754,6 +706,83 @@
 				1477ED59E2648789C524E3F608C9457C /* RNCryptor.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC231B68E80CEDFB1D7F8359CA670C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F722CAD9C7496CF02A09198FD837D6 /* Info.plist */,
+				8D9DD21CDAEBFCF0757841F0EBFB3AB4 /* Instructions.modulemap */,
+				B99933CD6A009D63C3371BB6FDC299CC /* Instructions.xcconfig */,
+				5100E8DB5D720DE3BF92EC30AA17CE56 /* Instructions-dummy.m */,
+				EC26DB2F0C4A99742F73F633F23F2184 /* Instructions-prefix.pch */,
+				5240E5B2BAED2DFCC9DE9FFE0887D7B8 /* Instructions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Instructions";
+			sourceTree = "<group>";
+		};
+		E3F1451FEBD2F6F706D208B303CE0E98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3531C6CF63B9902F682F803B25E6507 /* YandexSpeechKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E417698DBD5437077907D2A8E9139DA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F0DD1D463935F9E9643DB32BAC8ED3 /* EPContactsPicker.modulemap */,
+				D2C0FFBE1FD3F5CEEAF7D8D47F2DE08E /* EPContactsPicker.xcconfig */,
+				98BC28E1FAE1E293F7B83A148F19C4E8 /* EPContactsPicker-dummy.m */,
+				B9AF809DF8B70780CB1810199256EFCE /* EPContactsPicker-prefix.pch */,
+				8E5CDC55E225E8B7B214B7023F917DD3 /* EPContactsPicker-umbrella.h */,
+				59FA9E1A81FBAB2F58764361968EDED9 /* Info.plist */,
+				52FC94D0260B0FCFBC5DFE54FA599D3A /* ResourceBundle-EPContactsPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EPContactsPicker";
+			sourceTree = "<group>";
+		};
+		E88A3F490DDD495DC9D08B17A2C58848 /* MFCard */ = {
+			isa = PBXGroup;
+			children = (
+				4AB9F9273DFC6BF606B98642316A26C7 /* Card.swift */,
+				2337ECBF136EDB2488E51806FAD3A77C /* CreditCardValidationType.swift */,
+				780C807EFCDB74522065ED0A32C2D9BB /* CreditCardValidator.swift */,
+				A2E78CDC7CDC5CFD8CB6C33617C58786 /* LBZSpinner.swift */,
+				464BFA6E4DC19E9797E07D2F47DEF9A9 /* MFCard.h */,
+				1EACCAB140BF0BE09766D289E08D84C2 /* MFCardView.swift */,
+				21BF2DBC645A071935BE843EDA115FAB /* Toast.swift */,
+				CBF641EBB0394647F169C76A7CC7E83C /* Resources */,
+				FCA794117F1D43A3190C03054ECEDC28 /* Support Files */,
+			);
+			name = MFCard;
+			path = MFCard;
+			sourceTree = "<group>";
+		};
+		F3F8AED87CE4C158575B8C103CF1BE4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				266ACEDF7C176C2D1B1214F53399633C /* EPContactCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FCA794117F1D43A3190C03054ECEDC28 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA9113C45F13458020FA69A4C8C62F75 /* Info.plist */,
+				51E530866B99AEBDF1A145F826696F9B /* MFCard.modulemap */,
+				25D4376EEBE1F307456B4ED95B317C02 /* MFCard.xcconfig */,
+				8932A4306A5D346BBA1DB91708F42E08 /* MFCard-dummy.m */,
+				B4E2EABE038B7FC414201AC4C5A93AD2 /* MFCard-prefix.pch */,
+				95A322270663453CCD220C7A01B28E28 /* MFCard-umbrella.h */,
+				1CFC5D8E1087DF25BD41C7EAF07C205B /* ResourceBundle-MFCard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MFCard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1314,7 +1343,7 @@
 /* Begin XCBuildConfiguration section */
 		03671033C11E3FFA1E548BA14862C4FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA07AE6DE3ECCD5EA5A515346FB0154 /* EPContactsPicker.xcconfig */;
+			baseConfigurationReference = D2C0FFBE1FD3F5CEEAF7D8D47F2DE08E /* EPContactsPicker.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EPContactsPicker";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1497,7 +1526,7 @@
 		};
 		79F03C16B9F9673AC7AFFCE8BA28B1B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F57162C67BE23F4B77DB5C8ADBA898DE /* MFCard.xcconfig */;
+			baseConfigurationReference = 25D4376EEBE1F307456B4ED95B317C02 /* MFCard.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MFCard";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1514,7 +1543,7 @@
 		};
 		7D75FC3EA401CBABFE45B7164C4F5A10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA07AE6DE3ECCD5EA5A515346FB0154 /* EPContactsPicker.xcconfig */;
+			baseConfigurationReference = D2C0FFBE1FD3F5CEEAF7D8D47F2DE08E /* EPContactsPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1548,7 +1577,7 @@
 		};
 		82297AF4B9DEE0F4B588236F1894A0F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F57162C67BE23F4B77DB5C8ADBA898DE /* MFCard.xcconfig */;
+			baseConfigurationReference = 25D4376EEBE1F307456B4ED95B317C02 /* MFCard.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MFCard";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1565,7 +1594,7 @@
 		};
 		884D2AAECCBA0D4113302AE626533D47 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBB3AB9A980F36E75B3AA1C9F86D3229 /* AMPopTip.xcconfig */;
+			baseConfigurationReference = 107C233F8C0E2351309E2362443AF352 /* AMPopTip.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1635,7 +1664,7 @@
 		};
 		8E4591C77811A10FB6819CF43D55AE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FE7DDB934EF479A44CCB29C4B5C99FF /* Instructions.xcconfig */;
+			baseConfigurationReference = B99933CD6A009D63C3371BB6FDC299CC /* Instructions.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1670,7 +1699,7 @@
 		};
 		8EBE6B9D7CE2226B0EBADB9F49FBA94A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BA5C7F9E7BAAD443C65DA04A47D6479 /* RNCryptor.xcconfig */;
+			baseConfigurationReference = 605D9EF127615F03587B56BD63E45F27 /* RNCryptor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1776,7 +1805,7 @@
 		};
 		A1D65A4ABBEE6085617C09242041615D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 319CADC9589D7E3AF003AAF2686F8772 /* QRCode.xcconfig */;
+			baseConfigurationReference = 424D49DE593EBDCEFCEF4ACBF7B74EA0 /* QRCode.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1810,7 +1839,7 @@
 		};
 		A468DDF1F70DC507B6ABEBDA08F81ED8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA07AE6DE3ECCD5EA5A515346FB0154 /* EPContactsPicker.xcconfig */;
+			baseConfigurationReference = D2C0FFBE1FD3F5CEEAF7D8D47F2DE08E /* EPContactsPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1845,7 +1874,7 @@
 		};
 		BBE2A78A3293A5D2354D10DA44021F0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FE7DDB934EF479A44CCB29C4B5C99FF /* Instructions.xcconfig */;
+			baseConfigurationReference = B99933CD6A009D63C3371BB6FDC299CC /* Instructions.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1879,7 +1908,7 @@
 		};
 		BF4A1F4ACC9F6B2D8D6D90A36BC89B4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F57162C67BE23F4B77DB5C8ADBA898DE /* MFCard.xcconfig */;
+			baseConfigurationReference = 25D4376EEBE1F307456B4ED95B317C02 /* MFCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1913,7 +1942,7 @@
 		};
 		C34875BD314000F820584BAF7DCC5AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BA5C7F9E7BAAD443C65DA04A47D6479 /* RNCryptor.xcconfig */;
+			baseConfigurationReference = 605D9EF127615F03587B56BD63E45F27 /* RNCryptor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1948,7 +1977,7 @@
 		};
 		D8391C61731E0BB10E464CFF30C7E4FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 319CADC9589D7E3AF003AAF2686F8772 /* QRCode.xcconfig */;
+			baseConfigurationReference = 424D49DE593EBDCEFCEF4ACBF7B74EA0 /* QRCode.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1983,7 +2012,7 @@
 		};
 		E2907179F177C37714FFFC4AA43983FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA07AE6DE3ECCD5EA5A515346FB0154 /* EPContactsPicker.xcconfig */;
+			baseConfigurationReference = D2C0FFBE1FD3F5CEEAF7D8D47F2DE08E /* EPContactsPicker.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EPContactsPicker";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2000,7 +2029,7 @@
 		};
 		E835451FE62F30DC92BDDB685AB798CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F57162C67BE23F4B77DB5C8ADBA898DE /* MFCard.xcconfig */;
+			baseConfigurationReference = 25D4376EEBE1F307456B4ED95B317C02 /* MFCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2074,7 +2103,7 @@
 		};
 		FB3B8784E89C0DDB53F192915DB65075 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBB3AB9A980F36E75B3AA1C9F86D3229 /* AMPopTip.xcconfig */;
+			baseConfigurationReference = 107C233F8C0E2351309E2362443AF352 /* AMPopTip.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
