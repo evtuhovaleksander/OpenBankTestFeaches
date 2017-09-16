@@ -1,0 +1,6 @@
+framework module Pods_OpenBank {
+  umbrella header "Pods-OpenBank-umbrella.h"
+
+  export *
+  module * { export * }
+}

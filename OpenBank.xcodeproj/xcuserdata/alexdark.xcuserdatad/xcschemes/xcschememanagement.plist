@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OBWidget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>OpenBank.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DE52C0F71F6D246900359F74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEBBE5501F69AE24001DA473</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEBBE5641F69AE24001DA473</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEBBE56F1F69AE24001DA473</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+PODS:
+  - AMPopTip (2.1.6)
+  - EPContactsPicker (2.0.2)
+  - Instructions (1.0.0)
+  - MFCard (1.2.3)
+  - QRCode (2.0)
+  - RNCryptor (5.0.1)
+
+DEPENDENCIES:
+  - AMPopTip
+  - EPContactsPicker
+  - Instructions (~> 1.0.0)
+  - MFCard
+  - QRCode
+  - RNCryptor (~> 5.0)
+
+SPEC CHECKSUMS:
+  AMPopTip: 81f57556ae12500d30ff595078b1b6d11076ced8
+  EPContactsPicker: 89b5702dd19564066c390febc8b59b8aa4737748
+  Instructions: 11b6744e572b8cab6f61e9445403cb95fcde68f1
+  MFCard: b27333d126425819eef695a3ab44150bd6b46e45
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  RNCryptor: 2e352a488779d1a9184ab629be22a7c5bc84acb5
+
+PODFILE CHECKSUM: d9a90899764d17342583eb35d18251133117e06d
+
+COCOAPODS: 1.2.1
